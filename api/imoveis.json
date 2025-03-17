@@ -1,0 +1,566 @@
+{
+    "tituloPagina": "COP 30 - Imóveis disponíveis para locação",
+    "wame": "https://wa.me/+5591988573700?text=Tenho%20interesse%20no%20imovel%20",
+    "tiposImoveis": [
+        {
+            "tipo": "Casas",
+            "detalhes": [
+                {
+                    "texto": "Casa Miriti (6 a 8 hóspedes)",
+                    "valor": "R$120.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/casa/miriti/1.jpg",
+                            "descricao": "Churrasqueira"
+                        },
+                        {
+                            "href": "img/casa/miriti/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/miriti/3.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/casa/miriti/4.jpg",
+                            "descricao": "Lavabo"
+                        },
+                        {
+                            "href": "img/casa/miriti/5.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/casa/miriti/6.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/miriti/7.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/miriti/8.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/miriti/9.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/miriti/10.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/miriti/11.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/miriti/12.jpg",
+                            "descricao": "Água quente"
+                        },
+                        {
+                            "href": "img/casa/miriti/13.jpg",
+                            "descricao": "Espaço Gourmet"
+                        },
+                        {
+                            "href": "img/casa/miriti/14.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/miriti/15.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/miriti/16.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/miriti/17.jpg",
+                            "descricao": "Closet"
+                        },
+                        {
+                            "href": "img/casa/miriti/18.jpg",
+                            "descricao": "Closet"
+                        },
+                        {
+                            "href": "img/casa/miriti/19.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/casa/miriti/20.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/casa/miriti/21.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/miriti/22.jpg",
+                            "descricao": "Cozinha e Sala Integrada"
+                        },
+                        {
+                            "href": "img/casa/miriti/23.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/casa/miriti/24.jpg",
+                            "descricao": "Espaço Interno"
+                        },
+                        {
+                            "href": "img/casa/miriti/25.jpg",
+                            "descricao": "Lavabo"
+                        },
+                        {
+                            "href": "img/casa/miriti/26.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/casa/miriti/27.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/miriti/28.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/casa/miriti/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "Casa Itororó (12 a 15 hóspedes)",
+                    "valor": "R$195.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/casa/itororo/1.jpg",
+                            "descricao": "Área externa"
+                        },
+                        {
+                            "href": "img/casa/itororo/2.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/itororo/3.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/itororo/4.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/itororo/5.jpg",
+                            "descricao": "Cozinha"
+                        },
+                        {
+                            "href": "img/casa/itororo/6.jpg",
+                            "descricao": "Cozinha"
+                        },
+                        {
+                            "href": "img/casa/itororo/7.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/casa/itororo/8.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/itororo/9.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/10.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/11.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/12.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/13.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/14.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/15.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/16.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/17.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/itororo/18.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/19.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/20.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/21.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/22.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/23.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/24.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/25.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/26.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/itororo/27.jpg",
+                            "descricao": "Área externa"
+                        },
+                        {
+                            "href": "img/casa/itororo/28.jpg",
+                            "descricao": "Varanda"
+                        },
+                        {
+                            "href": "img/casa/itororo/29.jpg",
+                            "descricao": "Churrasqueira"
+                        },
+                        {
+                            "href": "img/casa/itororo/30.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/casa/itororo/31.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/casa/itororo/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "Casa Firenze (8 a 10 hóspedes)",
+                    "valor": "R$150.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/casa/firenze/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/firenze/2.jpg",
+                            "descricao": "Hall superior"
+                        },
+                        {
+                            "href": "img/casa/firenze/3.jpg",
+                            "descricao": "Sala superior"
+                        },
+                        {
+                            "href": "img/casa/firenze/4.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/firenze/5.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/firenze/6.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/casa/firenze/7.jpg",
+                            "descricao": "Churrasqueira"
+                        },
+                        {
+                            "href": "img/casa/firenze/maps.jpg",
+                            "descricao": "Localização"
+                        }                    ]
+                },
+                {
+                    "texto": "Casa Centro (12 a 15 hóspedes)",
+                    "valor": "R$190.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/casa/3maio/1.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/2.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/3.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/4.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/5.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/8.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/10.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/11.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/12.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/13.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/14.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/15.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/16.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/17.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/3maio/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "Casa Parque Verde (12 a 15 hóspedes)",
+                    "valor": "R$190.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/casa/pverde/1.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/pverde/2.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/pverde/3.jpg",
+                            "descricao": "Entrada"
+                        },
+                        {
+                            "href": "img/casa/pverde/4.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/pverde/5.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/6.jpg",
+                            "descricao": "Sala 2"
+                        },
+                        {
+                            "href": "img/casa/pverde/7.jpg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/casa/pverde/8.jpg",
+                            "descricao": "Área gourmet"
+                        },
+                        {
+                            "href": "img/casa/pverde/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/10.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/pverde/11.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/casa/pverde/12.jpg",
+                            "descricao": "Closet"
+                        },
+                        {
+                            "href": "img/casa/pverde/13.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/14.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/pverde/15.jpg",
+                            "descricao": "Closet 2"
+                        },
+                        {
+                            "href": "img/casa/pverde/16.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/17.jpg",
+                            "descricao": "Suíte 3"
+                        },
+                        {
+                            "href": "img/casa/pverde/18.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/casa/pverde/19.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/pverde/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tipo": "Apartamentos",
+            "detalhes": [
+                {
+                    "texto": "Apartamento 2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/apfilho/1.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/4.jpg",
+                            "descricao": "Área Relax"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/5.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/6.jpg",
+                            "descricao": "Cozinha + Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/8.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/maps.jpg",
+                            "descricao": "Localização"
+                        }
+
+                    ]
+                },
+                {
+                    "texto": "Apartamento 2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/appai/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/appai/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/appai/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/appai/4.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/appai/5.jpg",
+                            "descricao": "Cozinha + Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/appai/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/appai/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/appai/8.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/appai/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/appai/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

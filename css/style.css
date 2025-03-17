@@ -1,0 +1,183 @@
+.imovel {
+    margin-bottom: 30px;
+}
+.imovel img {
+    cursor: pointer;
+}
+.imovel-detalhes {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Classe para forçar imagens quadradas */
+.quadrado {
+    width: 100%;          /* Largura total do container */
+    height: 200px;        /* Altura fixa para um quadrado consistente */
+    object-fit: cover;    /* Ajusta a imagem sem distorcer */
+    display: block;       /* Garante que seja um bloco visível */
+}
+
+.foto-wrapper {
+    position: relative;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Estilos para as imagens de apresentação */
+.principal {
+    border-radius: 20px;
+    width: 50%!important; /* Reduz o tamanho em 30% */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.fotos img, .principal {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.fotos img:hover, .principal:hover {
+    transform: scale(1.2);
+}
+.foto-rodape {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 5%;
+    border-radius: 5px;
+}
+
+.btn-voltar {
+    margin-top: 5%;
+}
+
+/* Estilo para imagens no carrossel */
+.carousel-inner img {
+    width: 100%;          /* Ocupa toda a largura da tela */
+    height: auto;         /* Ajusta a altura automaticamente */
+    object-fit: contain;  /* Ajusta a imagem sem cortar */
+}
+
+/* Estilo para a seção COP 30 */
+.cop30 {
+    background-color: #e9ecef;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    min-height: 350px;
+}
+.cop30 .row {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+}
+.cop30 img {
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    height: calc(100% - 40px);
+    width: auto;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .cop30 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        min-height: auto;
+    }
+    .cop30 .row {
+        flex-direction: column;
+    }
+    .cop30 img {
+        position: relative;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cop30 .col-md-8, .cop30 .col-md-4 {
+        max-width: 100%;
+        flex: 1;
+    }
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px 10px; /* Reduzindo o padding interno */
+    color: #000; /* Cor do texto */
+    position: absolute;
+    bottom: 10px; /* Eleva um pouco a caixinha */
+    text-align: center; /* Centraliza o conteúdo dentro da caixinha */
+    box-sizing: border-box; /* Inclui o padding dentro da largura total */
+}
+
+/* Reduzindo o espaçamento entre texto e botão */
+.carousel-caption p {
+    margin-top: 5pt; /* Espaço menor abaixo do texto */
+    margin-bottom: -5pt;
+}
+
+.carousel-caption .btn-success {
+    margin-bottom: 5pt;
+}
+
+
+/* Ajuste das imagens no carrossel para 80% da altura da tela */
+.carousel-inner img {
+    width: auto;                /* Ajusta automaticamente a largura */
+    max-height: 80vh;           /* Limita a altura para 80% da altura da viewport */
+    margin: 0 auto;             /* Centraliza a imagem horizontalmente */
+    object-fit: contain;        /* Garante que a imagem não será cortada */
+}
+
+/* Ajuste para as setas do carrossel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para contraste */
+    border-radius: 50%;                  /* Torna as setas circulares */
+    width: 40px;                         /* Largura da seta */
+    height: 40px;                        /* Altura da seta */
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Realce ao passar o mouse */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1);                   /* Inverte a cor da seta para ficar visível */
+}
+
+
+
+.whatsapp-container {
+    position: fixed; /* Colocar fora da imagem */
+    bottom: 1%; /* Ajustar a posição */
+    right: 1%; /* Ajustar a posição */
+    z-index: 9999; /* Garantir que fique acima de outros elementos */
+}
+
+.whatsapp-icon {
+    width: 60px; /* Aumentar o tamanho do ícone */
+    height: 60px;
+    cursor: pointer; /* Adicionar cursor pointer */
+}
