@@ -1,199 +1,305 @@
-/* Estilo geral do corpo */
+/* ---------------------- Estilo Global ---------------------- */
 body {
     background-color: #f8f9fa;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif; /* Fonte moderna */
     color: #343a40;
+    margin: 0;
+    padding: 0;
 }
 
-/* Container principal */
-.container {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', Arial, sans-serif; /* Tipografia uniforme */
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* Suavidade na rolagem */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---------------------- Navegação ---------------------- */
+.navbar {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #555 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #343a40 !important;
+}
+
+/* ---------------------- Banner Hero ---------------------- */
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+header a {
+    font-weight: 600;
+    color: #343a40;
     background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
 }
 
+header a:hover {
+    color: #fff;
+    background-color: #343a40;
+    text-decoration: none;
+}
+
+/* ---------------------- Tipos de Imóveis ---------------------- */
+.tipos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.tipo-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.tipo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tipo-card .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+.card-body {
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+}
+
+/* ---------------------- Detalhes dos Imóveis ---------------------- */
+.detalhes-container h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+.detalhes-container .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.detalhes-container .card:hover {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.detalhes-container .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.detalhes-container .btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+    font-weight: 600;
+    border-radius: 25px;
+}
+
+.detalhes-container .btn-primary:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+/* ---------------------- Modal ---------------------- */
 .modal-header {
-    background-color: #343a40; /* Cor de fundo do cabeçalho */
-    color: #ffffff; /* Cor do texto */
+    background-color: #343a40;
+    color: #ffffff;
     border-bottom: none;
+}
+
+.modal-title{
+    color: #ffffff;
 }
 
 .modal-footer {
-    background-color: #343a40; /* Cor do rodapé igual ao cabeçalho */
-    padding: 10px 15px; /* Espaçamento interno */
+    background-color: #343a40; /* Cor do rodapé */
+    color: #ffffff; /* Cor do texto */
     border-top: none; /* Remove borda superior */
-    display: flex; /* Usa Flexbox para organizar conteúdo */
+    text-align: center; /* Centraliza o conteúdo */
+    display: flex; /* Usa Flexbox para centralizar */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
+    padding: 10px; /* Espaçamento interno */
 }
 
 .modal-footer p {
-    margin: 0; /* Remove as margens padrão do parágrafo */
-    color: #ffffff; /* Garante que o texto seja branco */
+    margin: 0; /* Remove as margens padrão */
     font-size: 1rem; /* Ajusta o tamanho da fonte */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
     text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que o texto ocupe toda a largura do rodapé */
 }
 
 
-
-/* Botões */
-.btn-primary {
-    background-color: #343a40; /* Cor de destaque */
-    border-color: #343a40;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #596877; /* Cor no hover */
-    border-color: #596877;
-}
-
-.modal-header {
-    background-color: #343a40;
-    color: #fff;
-    border-bottom: none;
-}
-
-.modal-body img {
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.modal-body .btn-success {
-    margin-top: 15px;
-}
-
-
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #343a40;
-    color: #ffffff;
-    margin-top: 50px;
-}
-
-/* Classe para imagens quadradas */
-.quadrado {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-}
-
-/* Estilo para apresentação de imagens */
-.fotos img, .principal {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    transition: transform 0.3s;
-}
-.fotos img:hover, .principal:hover {
-    transform: scale(1.2);
-}
-
-/* Estilo para elementos do carrossel */
 .carousel-caption {
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 5px 5px;
-    color: #000;
-    position: absolute;
-    bottom: 5px;
-    text-align: center;
-    box-sizing: border-box;
-
+    display: flex; /* Define como Flexbox */
+    justify-content: center; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    flex-direction: column; /* Garante que o conteúdo seja empilhado verticalmente */
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente para contraste */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 5px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    color: #fff; /* Cor do texto */
+    min-height: 10px; /* Garante altura mínima para alinhamento */
 }
 
 .carousel-caption p {
     margin: 0; /* Remove margens padrão */
-    font-size: 1rem; /* Ajusta o tamanho da fonte */
     line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+    font-size: 1rem; /* Tamanho da fonte ajustado */
 }
 
-
-
+/* Ajuste para imagens no carrossel */
 .carousel-inner img {
-    width: auto;
-    max-height: 80vh;
-    margin: 0 auto;
-    object-fit: contain;
+    width: auto; /* Mantém a largura proporcional */
+    max-height: 80vh; /* Limita a altura a 80% da altura visível da janela */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    object-fit: contain; /* Garante que a imagem seja redimensionada proporcionalmente */
+    display: block;
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-}
 
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
-/* Para imagens pequenas no carrossel */
-.imagem-pequena + .carousel-caption {
-    position: relative;
-    margin-top: 5px;
-    bottom: auto;
-    transform: none;
-}
-
-/* Estilos para a seção COP 30 */
-.cop30 {
-    background-color: #e9ecef;
-    text-align: left;
+/* ---------------------- Rodapé ---------------------- */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
     padding: 20px;
-    border-radius: 10px;
-    position: relative;
-    min-height: 350px;
-}
-.cop30 img {
-    position: absolute;
-    right: 3%;
-    bottom: 3%;
-    height: calc(100% - 40px);
-    width: auto;
-    z-index: 0;
 }
 
+footer a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #343a40;
+}
+
+/* ---------------------- Botão WhatsApp Flutuante ---------------------- */
 /* Botão flutuante do WhatsApp */
 .whatsapp-float {
-    position: fixed; /* Posição fixa, para flutuar na tela */
+    position: fixed; /* Fixa o botão na tela */
     bottom: 20px; /* Distância da parte inferior */
     right: 20px; /* Distância da lateral direita */
-    z-index: 1050; /* Garante que fique acima do carrossel e do modal */
-    pointer-events: auto; /* Permite cliques no botão */
+    z-index: 1050; /* Alta prioridade para ficar na frente de outros elementos */
+    transition: transform 0.3s ease;
+    pointer-events: auto; /* Permite interação */
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1); /* Leve zoom no hover */
 }
 
 .whatsapp-float img {
-    width: 40px; /* Largura do ícone */
-    height: 40px; /* Altura do ícone */
-    cursor: pointer; /* Adiciona aparência de clique */
+    width: 50px; /* Largura do ícone */
+    height: 50px; /* Altura do ícone */
+    cursor: pointer; /* Mostra que é clicável */
+    border-radius: 50%; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar o botão */
 }
 
 
-/* Responsividade */
+
+/* ---------------------- Responsividade ---------------------- */
 @media (max-width: 768px) {
-    .cop30 {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        min-height: auto;
+    header h1 {
+        font-size: 2rem;
     }
-    .cop30 img {
-        position: relative;
-        height: auto;
-        width: 100%;
-        margin-top: 20px;
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .detalhes-container .card-body {
+        padding: 10px;
+    }
+
+    .detalhes-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .tipos-container {
+        gap: 10px;
+    }
+
+    .tipo-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-img-top {
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        max-height: 60vh; /* Limita ainda mais a altura em dispositivos menores */
+    }
+}
+
+@media (min-width: 769px) {
+    .carousel-inner img {
+        max-height: 80vh; /* Ajuste padrão para desktops */
     }
 }

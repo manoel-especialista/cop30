@@ -3,42 +3,81 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(response => response.json())
         .then(data => {
             inicializarPagina(data);
+            adicionarBotaoWhatsApp(data.wame); // Adiciona o botão flutuante ao carregar a página
         })
         .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
 });
+
+let wameOriginal = ''; // Armazena o valor original 
+
+function adicionarBotaoWhatsApp(wame) {
+    // Verifica se o WhatsApp link está disponível
+    if (!wame) return;
+
+    // Cria o botão flutuante
+    const botaoWhatsApp = document.createElement('div');
+    botaoWhatsApp.classList.add('whatsapp-float');
+
+    // Conteúdo do botão
+    botaoWhatsApp.innerHTML = `
+        <a href="${wame}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" title="Entre em contato pelo WhatsApp">
+        </a>
+    `;
+
+    // Adiciona o botão ao corpo da página
+    document.body.appendChild(botaoWhatsApp);
+}
+
 
 function inicializarPagina(data) {
     // Define o título da página
     document.title = data.tituloPagina;
 
-    // Renderiza a estrutura inicial da página
-    const container = document.querySelector('.container');
-    container.innerHTML = `
-        <h1 class="text-center my-5">${data.tituloPagina}</h1>
-        <div class="row tipos-container mb-5"></div>
-        <div class="row detalhes-container"></div>
-    `;
+    // Atualiza o título do Header com o título vindo do JSON
+    const header = document.querySelector('header');
+    header.querySelector('h1').textContent = data.tituloPagina;
 
-    // Adiciona os tipos de imóveis no topo
-    const tiposContainer = container.querySelector('.tipos-container');
-    data.tiposImoveis.forEach((tipo) => {
+    // Salva o valor original de wame
+    wameOriginal = data.wame;
+
+    // Renderiza os tipos de imóveis na seção correta
+    renderizarTipos(data.tiposImoveis, data.wame);
+
+    // Limpa a área de detalhes ao carregar a página
+    limparDetalhes();
+}
+
+function limparDetalhes() {
+    // Garante que o container de detalhes esteja vazio
+    const detalhesContainer = document.querySelector('.detalhes-container');
+    if (detalhesContainer) {
+        detalhesContainer.innerHTML = '';
+    }
+}
+
+function renderizarTipos(tiposImoveis, wame) {
+    const tiposContainer = document.querySelector('.tipos-container');
+
+    tiposImoveis.forEach((tipo) => {
         const tipoCard = document.createElement('div');
-        tipoCard.classList.add('col-6', 'col-md-4', 'col-lg-3', 'mb-4', 'tipo-card');
+        tipoCard.classList.add('col-12', 'col-sm-6', 'col-lg-3', 'mb-4', 'tipo-card');
 
         const cardWrapper = document.createElement('div');
         cardWrapper.classList.add('card', 'h-100');
 
-        // Pega a primeira imagem do primeiro detalhe como representativa do tipo
+        // Pega a primeira imagem representativa do tipo
         if (tipo.detalhes.length > 0 && tipo.detalhes[0].imagens.length > 0) {
             const imgTipo = document.createElement('img');
             imgTipo.src = tipo.detalhes[0].imagens[0].href;
             imgTipo.alt = `Imagem de ${tipo.tipo}`;
-            imgTipo.classList.add('card-img-top', 'img-fluid', 'quadrado'); // Classe para forçar tamanho quadrado
+            imgTipo.classList.add('card-img-top', 'img-fluid', 'quadrado'); // Imagem responsiva
             cardWrapper.appendChild(imgTipo);
-            tipo['wame'] = data.wame;
 
             // Adiciona o evento de clique para exibir os detalhes do tipo
-            imgTipo.addEventListener('click', () => mostrarDetalhes(tipo));
+            imgTipo.addEventListener('click', () => {
+                mostrarDetalhes(tipo, wameOriginal); // Usa o valor original de wame
+            });
         }
 
         const cardBody = document.createElement('div');
@@ -47,6 +86,7 @@ function inicializarPagina(data) {
         // Adiciona o título do tipo
         const tituloTipo = document.createElement('h5');
         tituloTipo.textContent = tipo.tipo;
+        tituloTipo.classList.add('fw-bold');
         cardBody.appendChild(tituloTipo);
 
         cardWrapper.appendChild(cardBody);
@@ -55,10 +95,10 @@ function inicializarPagina(data) {
     });
 }
 
-function mostrarDetalhes(tipo) {
+function mostrarDetalhes(tipo, wame) {
     const detalhesContainer = document.querySelector('.detalhes-container');
     detalhesContainer.innerHTML = `
-        <h2 class="text-center col-12 mb-4" style="font-family: 'Roboto', sans-serif; font-size: 1.8rem; font-weight: 700; color: #34495e; border-bottom: 2px solid #2ecc71; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 1.5px;">
+        <h2 class="text-center col-12 mb-4" style="font-size: 1.8rem; font-weight: 700; color: #343a40;">
             Abaixo estão as opções de ${tipo.tipo}
         </h2>
     `;
@@ -66,17 +106,18 @@ function mostrarDetalhes(tipo) {
     tipo.detalhes.forEach((detalhe) => {
         if (detalhe.imagens.length > 0) {
             const detalheCard = document.createElement('div');
-            detalheCard.classList.add('col-6', 'col-md-4', 'col-lg-3', 'mb-4');
+            detalheCard.classList.add('col-12', 'col-md-6', 'col-lg-4', 'mb-4');
 
             const cardWrapper = document.createElement('div');
             cardWrapper.classList.add('card', 'h-100');
 
-            // Imagem
+            // Imagem do imóvel
             const imgDetalhe = document.createElement('img');
             imgDetalhe.src = detalhe.imagens[0].href;
             imgDetalhe.alt = detalhe.texto || 'Imagem do detalhe';
             imgDetalhe.classList.add('card-img-top', 'img-fluid', 'quadrado');
 
+            // Corpo do card
             const cardBody = document.createElement('div');
             cardBody.classList.add('card-body', 'text-center');
 
@@ -86,7 +127,7 @@ function mostrarDetalhes(tipo) {
             valor.innerHTML = detalhe.valor ? `<strong>${detalhe.valor}</strong>` : 'Valor não disponível';
 
             const texto = document.createElement('p');
-            texto.classList.add('texto');
+            texto.classList.add('texto', 'text-muted');
             texto.textContent = detalhe.texto;
 
             // Botão "Saiba mais"
@@ -94,9 +135,16 @@ function mostrarDetalhes(tipo) {
             saibaMaisBtn.classList.add('btn', 'btn-primary', 'mt-3');
             saibaMaisBtn.textContent = 'Saiba mais';
 
-            // Adiciona eventos aos elementos
-            adicionarEventoCarrossel(imgDetalhe, detalhe, tipo.wame);
-            adicionarEventoCarrossel(saibaMaisBtn, detalhe, tipo.wame);
+            // Adiciona evento ao botão para abrir o carrossel e ajustar o link do WhatsApp
+            saibaMaisBtn.addEventListener('click', () => {
+                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes);
+                atualizarLinkWhatsApp(wame, detalhe.texto); // Atualiza o botão WhatsApp
+            });
+
+            imgDetalhe.addEventListener('click', () => {
+                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes);
+                atualizarLinkWhatsApp(wame, detalhe.texto); // Atualiza o botão WhatsApp
+            });
 
             cardBody.appendChild(valor);
             cardBody.appendChild(texto);
@@ -112,17 +160,16 @@ function mostrarDetalhes(tipo) {
     // Rola até o título <h2> após a renderização
     const titulo = detalhesContainer.querySelector('h2');
     if (titulo) {
-        titulo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        setTimeout(() => {
+            titulo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100); // Garante que o título esteja renderizado
     }
+
+    // Restaura o botão WhatsApp ao valor original ao voltar
+    atualizarLinkWhatsApp(wameOriginal);
 }
 
-function adicionarEventoCarrossel(elemento, detalhe, wame) {
-    elemento.addEventListener('click', () => {
-        atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes, wame);
-    });
-}
-
-function atualizarCarrossel(imagens, titulo, detalhes, wame) {
+function atualizarCarrossel(imagens, titulo, detalhes) {
     // Atualiza o título no modalLabel (cabeçalho do carrossel)
     const modalLabel = document.getElementById('carrosselModalLabel');
     modalLabel.textContent = titulo;
@@ -158,7 +205,26 @@ function atualizarCarrossel(imagens, titulo, detalhes, wame) {
         carouselInner.appendChild(div);
     });
 
+    // Adiciona o botão flutuante do WhatsApp dentro do carrossel
+    const carrosselModal = document.getElementById('carrosselModal');
+    const botaoWhatsApp = document.createElement('div');
+    botaoWhatsApp.classList.add('whatsapp-float');
+    botaoWhatsApp.innerHTML = `
+        <a href="https://wa.me/?text=${encodeURIComponent(titulo)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" title="Entre em contato pelo WhatsApp">
+        </a>
+    `;
+    carrosselModal.appendChild(botaoWhatsApp);
+
     // Mostra o carrossel
-    const carrosselModal = new bootstrap.Modal(document.getElementById('carrosselModal'));
-    carrosselModal.show();
+    const bootstrapModal = new bootstrap.Modal(carrosselModal);
+    bootstrapModal.show();
+}
+
+
+function atualizarLinkWhatsApp(wame, texto = '') {
+    const botaoWhatsApp = document.querySelector('.whatsapp-float a');
+    if (botaoWhatsApp) {
+        botaoWhatsApp.href = texto ? `${wame}?text=${encodeURIComponent(texto)}` : wame;
+    }
 }
