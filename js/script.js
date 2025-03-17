@@ -1,3 +1,5 @@
+let wameOriginal = ''; // Armazena o valor original 
+
 document.addEventListener('DOMContentLoaded', function () {
     fetch('./api/imoveis.json')
         .then(response => response.json())
@@ -8,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .catch(error => console.error('Erro ao carregar o arquivo JSON:', error));
 });
 
-let wameOriginal = ''; // Armazena o valor original 
+
 
 function adicionarBotaoWhatsApp(wame) {
     // Verifica se o WhatsApp link está disponível
@@ -225,6 +227,6 @@ function atualizarCarrossel(imagens, titulo, detalhes) {
 function atualizarLinkWhatsApp(wame, texto = '') {
     const botaoWhatsApp = document.querySelector('.whatsapp-float a');
     if (botaoWhatsApp) {
-        botaoWhatsApp.href = texto ? `${wame}?text=${encodeURIComponent(texto)}` : wame;
+        botaoWhatsApp.href = texto ? `${wame}${encodeURIComponent(texto)}` : wame;
     }
 }
