@@ -1,40 +1,94 @@
-.imovel {
-    margin-bottom: 30px;
-}
-.imovel img {
-    cursor: pointer;
-}
-.imovel-detalhes {
-    display: none;
-    margin-top: 20px;
-}
-
-/* Classe para forçar imagens quadradas */
-.quadrado {
-    width: 100%;          /* Largura total do container */
-    height: 200px;        /* Altura fixa para um quadrado consistente */
-    object-fit: cover;    /* Ajusta a imagem sem distorcer */
-    display: block;       /* Garante que seja um bloco visível */
-}
-
-.foto-wrapper {
-    position: relative;
+/* Estilo geral do corpo */
+body {
     background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+/* Container principal */
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.modal-header {
+    background-color: #343a40; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto */
+    border-bottom: none;
+}
+
+.modal-footer {
+    background-color: #343a40; /* Cor do rodapé igual ao cabeçalho */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-top: none; /* Remove borda superior */
+    display: flex; /* Usa Flexbox para organizar conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.modal-footer p {
+    margin: 0; /* Remove as margens padrão do parágrafo */
+    color: #ffffff; /* Garante que o texto seja branco */
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+}
+
+
+
+/* Botões */
+.btn-primary {
+    background-color: #343a40; /* Cor de destaque */
+    border-color: #343a40;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #596877; /* Cor no hover */
+    border-color: #596877;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-body img {
     border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    margin-bottom: 15px;
 }
 
-/* Estilos para as imagens de apresentação */
-.principal {
-    border-radius: 20px;
-    width: 50%!important; /* Reduz o tamanho em 30% */
-    height: auto; /* Mantém a proporção da imagem */
+.modal-body .btn-success {
+    margin-top: 15px;
 }
 
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+/* Classe para imagens quadradas */
+.quadrado {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Estilo para apresentação de imagens */
 .fotos img, .principal {
     width: 100%;
     height: auto;
@@ -44,30 +98,57 @@
 .fotos img:hover, .principal:hover {
     transform: scale(1.2);
 }
-.foto-rodape {
+
+/* Estilo para elementos do carrossel */
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 5px 5px;
+    color: #000;
     position: absolute;
-    bottom: 10px;
-    width: 90%;
-    background-color: white;
-    padding: 10px;
-    box-sizing: border-box;
+    bottom: 5px;
     text-align: center;
-    margin-left: 5%;
-    border-radius: 5px;
+    box-sizing: border-box;
+
 }
 
-.btn-voltar {
-    margin-top: 5%;
+.carousel-caption p {
+    margin: 0; /* Remove margens padrão */
+    font-size: 1rem; /* Ajusta o tamanho da fonte */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
 }
 
-/* Estilo para imagens no carrossel */
+
+
 .carousel-inner img {
-    width: 100%;          /* Ocupa toda a largura da tela */
-    height: auto;         /* Ajusta a altura automaticamente */
-    object-fit: contain;  /* Ajusta a imagem sem cortar */
+    width: auto;
+    max-height: 80vh;
+    margin: 0 auto;
+    object-fit: contain;
 }
 
-/* Estilo para a seção COP 30 */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Para imagens pequenas no carrossel */
+.imagem-pequena + .carousel-caption {
+    position: relative;
+    margin-top: 5px;
+    bottom: auto;
+    transform: none;
+}
+
+/* Estilos para a seção COP 30 */
 .cop30 {
     background-color: #e9ecef;
     text-align: left;
@@ -76,23 +157,32 @@
     position: relative;
     min-height: 350px;
 }
-.cop30 .row {
-    position: relative;
-    z-index: 1;
-    height: 100%;
-}
 .cop30 img {
     position: absolute;
     right: 3%;
     bottom: 3%;
     height: calc(100% - 40px);
     width: auto;
-    background-color: white;
-    border-radius: 10px;
     z-index: 0;
 }
 
-/* Estilos para dispositivos móveis */
+/* Botão flutuante do WhatsApp */
+.whatsapp-float {
+    position: fixed; /* Posição fixa, para flutuar na tela */
+    bottom: 20px; /* Distância da parte inferior */
+    right: 20px; /* Distância da lateral direita */
+    z-index: 1050; /* Garante que fique acima do carrossel e do modal */
+    pointer-events: auto; /* Permite cliques no botão */
+}
+
+.whatsapp-float img {
+    width: 40px; /* Largura do ícone */
+    height: 40px; /* Altura do ícone */
+    cursor: pointer; /* Adiciona aparência de clique */
+}
+
+
+/* Responsividade */
 @media (max-width: 768px) {
     .cop30 {
         display: flex;
@@ -100,84 +190,10 @@
         align-items: flex-start;
         min-height: auto;
     }
-    .cop30 .row {
-        flex-direction: column;
-    }
     .cop30 img {
         position: relative;
-        right: 0;
-        top: 0;
-        bottom: 0;
         height: auto;
         width: 100%;
         margin-top: 20px;
     }
-    .cop30 .col-md-8, .cop30 .col-md-4 {
-        max-width: 100%;
-        flex: 1;
-    }
-}
-
-.carousel-caption {
-    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
-    border-radius: 10px; /* Bordas arredondadas */
-    padding: 5px 10px; /* Reduzindo o padding interno */
-    color: #000; /* Cor do texto */
-    position: absolute;
-    bottom: 10px; /* Eleva um pouco a caixinha */
-    text-align: center; /* Centraliza o conteúdo dentro da caixinha */
-    box-sizing: border-box; /* Inclui o padding dentro da largura total */
-}
-
-/* Reduzindo o espaçamento entre texto e botão */
-.carousel-caption p {
-    margin-top: 5pt; /* Espaço menor abaixo do texto */
-    margin-bottom: -5pt;
-}
-
-.carousel-caption .btn-success {
-    margin-bottom: 5pt;
-}
-
-
-/* Ajuste das imagens no carrossel para 80% da altura da tela */
-.carousel-inner img {
-    width: auto;                /* Ajusta automaticamente a largura */
-    max-height: 80vh;           /* Limita a altura para 80% da altura da viewport */
-    margin: 0 auto;             /* Centraliza a imagem horizontalmente */
-    object-fit: contain;        /* Garante que a imagem não será cortada */
-}
-
-/* Ajuste para as setas do carrossel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para contraste */
-    border-radius: 50%;                  /* Torna as setas circulares */
-    width: 40px;                         /* Largura da seta */
-    height: 40px;                        /* Altura da seta */
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Realce ao passar o mouse */
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    filter: invert(1);                   /* Inverte a cor da seta para ficar visível */
-}
-
-
-
-.whatsapp-container {
-    position: fixed; /* Colocar fora da imagem */
-    bottom: 1%; /* Ajustar a posição */
-    right: 1%; /* Ajustar a posição */
-    z-index: 9999; /* Garantir que fique acima de outros elementos */
-}
-
-.whatsapp-icon {
-    width: 60px; /* Aumentar o tamanho do ícone */
-    height: 60px;
-    cursor: pointer; /* Adicionar cursor pointer */
 }

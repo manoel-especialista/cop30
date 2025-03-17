@@ -8,6 +8,7 @@
                 {
                     "texto": "Casa Miriti (6 a 8 hóspedes)",
                     "valor": "R$120.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/casa/miriti/1.jpg",
@@ -130,6 +131,7 @@
                 {
                     "texto": "Casa Itororó (12 a 15 hóspedes)",
                     "valor": "R$195.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/casa/itororo/1.jpg",
@@ -264,6 +266,7 @@
                 {
                     "texto": "Casa Firenze (8 a 10 hóspedes)",
                     "valor": "R$150.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/casa/firenze/1.jpg",
@@ -301,6 +304,7 @@
                 {
                     "texto": "Casa Centro (12 a 15 hóspedes)",
                     "valor": "R$190.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/casa/3maio/1.jpg",
@@ -379,6 +383,7 @@
                 {
                     "texto": "Casa Parque Verde (12 a 15 hóspedes)",
                     "valor": "R$190.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/casa/pverde/1.jpg",
@@ -470,6 +475,7 @@
                 {
                     "texto": "Apartamento 2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$100.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/apartamento/apfilho/1.jpg",
@@ -517,6 +523,7 @@
                 {
                     "texto": "Apartamento 2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$100.000,00",
+                    "detalhes": "Casa com 4 suítes",
                     "imagens": [
                         {
                             "href": "img/apartamento/appai/1.jpg",

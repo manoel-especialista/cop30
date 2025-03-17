@@ -57,16 +57,13 @@ function inicializarPagina(data) {
 }
 
 function mostrarDetalhes(tipo) {
-    // Renderiza os detalhes abaixo mantendo os tipos no topo
     const detalhesContainer = document.querySelector('.detalhes-container');
     detalhesContainer.innerHTML = `
         <h2 class="text-center col-12 mb-4" style="font-family: 'Roboto', sans-serif; font-size: 1.8rem; font-weight: 700; color: #34495e; border-bottom: 2px solid #2ecc71; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 1.5px;">
-    Abaixo estão as opções de ${tipo.tipo}
-</h2>
-
+            Abaixo estão as opções de ${tipo.tipo}
+        </h2>
     `;
 
-    // Adiciona os detalhes do tipo
     tipo.detalhes.forEach(detalhe => {
         if (detalhe.imagens.length > 0) {
             const detalheCard = document.createElement('div');
@@ -75,16 +72,16 @@ function mostrarDetalhes(tipo) {
             const cardWrapper = document.createElement('div');
             cardWrapper.classList.add('card', 'h-100');
 
-            // Pega a primeira imagem do detalhe
+            // Imagem
             const imgDetalhe = document.createElement('img');
             imgDetalhe.src = detalhe.imagens[0].href;
             imgDetalhe.alt = detalhe.texto || 'Imagem do detalhe';
-            imgDetalhe.classList.add('card-img-top', 'img-fluid', 'quadrado'); // Classe para forçar tamanho quadrado
+            imgDetalhe.classList.add('card-img-top', 'img-fluid', 'quadrado');
 
             const cardBody = document.createElement('div');
             cardBody.classList.add('card-body', 'text-center');
 
-            // Adiciona informações do detalhe (valor e texto)
+            // Texto e valor
             const valor = document.createElement('p');
             valor.classList.add('valor', 'mb-2');
             valor.innerHTML = '<strong>' + detalhe.valor + '</strong>';
@@ -93,64 +90,63 @@ function mostrarDetalhes(tipo) {
             texto.classList.add('texto');
             texto.textContent = detalhe.texto;
 
+            // Botão "Saiba mais"
+            const saibaMaisBtn = document.createElement('button');
+            saibaMaisBtn.classList.add('btn', 'btn-primary', 'mt-3');
+            saibaMaisBtn.textContent = 'Saiba mais';
+            saibaMaisBtn.addEventListener('click', () => {
+                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.valor, detalhe.detalhes, tipo.wame);
+            });
+
             cardBody.appendChild(valor);
             cardBody.appendChild(texto);
+            cardBody.appendChild(saibaMaisBtn);
 
-            // Monta o card completo
             cardWrapper.appendChild(imgDetalhe);
             cardWrapper.appendChild(cardBody);
             detalheCard.appendChild(cardWrapper);
             detalhesContainer.appendChild(detalheCard);
-
-            // Evento de clique para abrir o modal do carrossel
-            imgDetalhe.addEventListener('click', () => {
-                atualizarCarrossel(detalhe.imagens, detalhe.texto, tipo.wame);
-            });
         }
     });
 }
 
-function atualizarCarrossel(imagens, titulo, wame) {
+// Atualize a Função `atualizarCarrossel`
+function atualizarCarrossel(imagens, titulo, valor, detalhes) {
+    // Atualiza o título no modalLabel (cabeçalho do carrossel)
     const modalLabel = document.getElementById('carrosselModalLabel');
-    modalLabel.innerText = titulo;
+    modalLabel.textContent = titulo;
+
+    // Atualiza o rodapé com os detalhes
+    const modalFooter = document.getElementById('carrosselModalFooter'); // Nova tag para o rodapé
+    modalFooter.textContent = detalhes || 'Nenhuma informação adicional disponível.';
 
     const carouselInner = document.querySelector('#carrosselImagens .carousel-inner');
     carouselInner.innerHTML = ''; // Limpa o conteúdo existente do carrossel
 
+    // Adiciona imagens ao carrossel com descrição
     imagens.forEach((imagem, index) => {
         const div = document.createElement('div');
-        div.className = 'carousel-item' + (index === 0 ? ' active' : '');
+        div.className = 'carousel-item' + (index === 0 ? ' active' : ''); // Define a classe active na primeira imagem
 
-        // Imagem principal no carrossel
+        // Imagem principal do carrossel
         const img = document.createElement('img');
-        img.className = 'd-block w-100'; // Ocupa toda a largura do modal
+        img.className = 'd-block w-100'; // Ocupa toda a largura do slide
         img.src = imagem.href;
         img.alt = imagem.descricao || 'Imagem do carrossel';
 
+        // Descrição da imagem dentro do carrossel
         const descricao = document.createElement('div');
         descricao.classList.add('carousel-caption', 'd-md-block');
         descricao.innerHTML = `
             <p>${imagem.descricao || ''}</p>
         `;
 
-        // Ícone do WhatsApp
-        const whatsappLink = document.createElement('a');
-        whatsappLink.href = wame + encodeURIComponent(titulo);
-        whatsappLink.target = '_blank';
-        whatsappLink.classList.add('btn', 'btn-success', 'mt-3');
-        whatsappLink.innerHTML = `
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; height: 20px; margin-right: 5px;">
-            Contatar pelo WhatsApp
-        `;
-
-        descricao.appendChild(whatsappLink);
-
         div.appendChild(img);
         div.appendChild(descricao);
         carouselInner.appendChild(div);
     });
 
-    // Abre o modal do carrossel após a configuração
+    // Mostra o carrossel
     const carrosselModal = new bootstrap.Modal(document.getElementById('carrosselModal'));
     carrosselModal.show();
 }
