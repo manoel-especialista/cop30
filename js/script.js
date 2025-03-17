@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     fetch('./api/imoveis.json')
         .then(response => response.json())
         .then(data => {
@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
 function inicializarPagina(data) {
     // Define o título da página
     document.title = data.tituloPagina;
-    document.COMMENT_NODE = data.wame;
 
     // Renderiza a estrutura inicial da página
     const container = document.querySelector('.container');
@@ -64,7 +63,7 @@ function mostrarDetalhes(tipo) {
         </h2>
     `;
 
-    tipo.detalhes.forEach(detalhe => {
+    tipo.detalhes.forEach((detalhe) => {
         if (detalhe.imagens.length > 0) {
             const detalheCard = document.createElement('div');
             detalheCard.classList.add('col-6', 'col-md-4', 'col-lg-3', 'mb-4');
@@ -84,7 +83,7 @@ function mostrarDetalhes(tipo) {
             // Texto e valor
             const valor = document.createElement('p');
             valor.classList.add('valor', 'mb-2');
-            valor.innerHTML = '<strong>' + detalhe.valor + '</strong>';
+            valor.innerHTML = detalhe.valor ? `<strong>${detalhe.valor}</strong>` : 'Valor não disponível';
 
             const texto = document.createElement('p');
             texto.classList.add('texto');
@@ -94,9 +93,10 @@ function mostrarDetalhes(tipo) {
             const saibaMaisBtn = document.createElement('button');
             saibaMaisBtn.classList.add('btn', 'btn-primary', 'mt-3');
             saibaMaisBtn.textContent = 'Saiba mais';
-            saibaMaisBtn.addEventListener('click', () => {
-                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes, tipo.wame);
-            });
+
+            // Adiciona eventos aos elementos
+            adicionarEventoCarrossel(imgDetalhe, detalhe, tipo.wame);
+            adicionarEventoCarrossel(saibaMaisBtn, detalhe, tipo.wame);
 
             cardBody.appendChild(valor);
             cardBody.appendChild(texto);
@@ -108,22 +108,29 @@ function mostrarDetalhes(tipo) {
             detalhesContainer.appendChild(detalheCard);
         }
     });
+
+    // Rola até o título <h2> após a renderização
+    const titulo = detalhesContainer.querySelector('h2');
+    if (titulo) {
+        titulo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 }
 
-// Atualize a Função `atualizarCarrossel`
+function adicionarEventoCarrossel(elemento, detalhe, wame) {
+    elemento.addEventListener('click', () => {
+        atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes, wame);
+    });
+}
+
 function atualizarCarrossel(imagens, titulo, detalhes, wame) {
     // Atualiza o título no modalLabel (cabeçalho do carrossel)
     const modalLabel = document.getElementById('carrosselModalLabel');
     modalLabel.textContent = titulo;
-    modalLabel.innerHTML += `
-        <a href="${wame + encodeURIComponent(titulo)}" target="_blank" style="margin-left: 10px;">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; height: 20px; vertical-align: middle; cursor: pointer;">
-        </a>`
 
     // Atualiza o rodapé com os detalhes
     const detalhesTexto = detalhes.replace(/\n/g, '<br>'); // Substitui \n por <br>
     const modalFooter = document.getElementById('carrosselModalFooter');
-    modalFooter.innerHTML = detalhesTexto || 'Nenhuma informação adicional disponível.';; 
+    modalFooter.innerHTML = detalhesTexto || 'Nenhuma informação adicional disponível.';
 
     const carouselInner = document.querySelector('#carrosselImagens .carousel-inner');
     carouselInner.innerHTML = ''; // Limpa o conteúdo existente do carrossel
