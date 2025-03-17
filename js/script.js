@@ -121,8 +121,9 @@ function atualizarCarrossel(imagens, titulo, detalhes, wame) {
         </a>`
 
     // Atualiza o rodapé com os detalhes
-    const modalFooter = document.getElementById('carrosselModalFooter'); // Nova tag para o rodapé
-    modalFooter.textContent = detalhes || 'Nenhuma informação adicional disponível.';
+    const detalhesTexto = detalhes.replace(/\n/g, '<br>'); // Substitui \n por <br>
+    const modalFooter = document.getElementById('carrosselModalFooter');
+    modalFooter.innerHTML = detalhesTexto || 'Nenhuma informação adicional disponível.';; 
 
     const carouselInner = document.querySelector('#carrosselImagens .carousel-inner');
     carouselInner.innerHTML = ''; // Limpa o conteúdo existente do carrossel
