@@ -95,7 +95,7 @@ function mostrarDetalhes(tipo) {
             saibaMaisBtn.classList.add('btn', 'btn-primary', 'mt-3');
             saibaMaisBtn.textContent = 'Saiba mais';
             saibaMaisBtn.addEventListener('click', () => {
-                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.valor, detalhe.detalhes, tipo.wame);
+                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes, tipo.wame);
             });
 
             cardBody.appendChild(valor);
@@ -111,10 +111,14 @@ function mostrarDetalhes(tipo) {
 }
 
 // Atualize a Função `atualizarCarrossel`
-function atualizarCarrossel(imagens, titulo, valor, detalhes) {
+function atualizarCarrossel(imagens, titulo, detalhes, wame) {
     // Atualiza o título no modalLabel (cabeçalho do carrossel)
     const modalLabel = document.getElementById('carrosselModalLabel');
     modalLabel.textContent = titulo;
+    modalLabel.innerHTML += `
+        <a href="${wame + encodeURIComponent(titulo)}" target="_blank" style="margin-left: 10px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 20px; height: 20px; vertical-align: middle; cursor: pointer;">
+        </a>`
 
     // Atualiza o rodapé com os detalhes
     const modalFooter = document.getElementById('carrosselModalFooter'); // Nova tag para o rodapé
