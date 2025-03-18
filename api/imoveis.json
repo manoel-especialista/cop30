@@ -8,6 +8,7 @@
                 {
                     "texto": "Condomínio Jardim Marsella (6 a 8 hóspedes)",
                     "valor": "R$120.000,00",
+                    "localizacao": "https://maps.app.goo.gl/JKHK3zxCLoZGQnsm9",
                     "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condomínio completo com muita segurança.",
                     "imagens": [
                         {
@@ -131,6 +132,7 @@
                 {
                     "texto": "Condomínio Itororó (12 a 15 hóspedes)",
                     "valor": "R$220.000,00",
+                    "localizacao": "https://maps.app.goo.gl/SxotA7d9R4WiPSAy5",
                     "detalhes": "Bela casa com 5 suítes + 01 quarto \n Muito espaçosa e toda avarandada e área Gourmet completa \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP.",
                     "imagens": [
                         {
@@ -266,6 +268,7 @@
                 {
                     "texto": "Condomínio Villa Firenze (8 a 10 hóspedes)",
                     "valor": "R$150.000,00",
+                    "localizacao": "https://maps.app.goo.gl/9N2pSLv2qi4yixEG9",
                     "detalhes": "Bela casa com 4 suítes \n Muito espaçosa ,área Gourmet completa \n Imóvel em Condomínio com total segurança e área de laser completa.",
                     "imagens": [
                         {
@@ -304,6 +307,7 @@
                 {
                     "texto": "Casa Centro (12 a 15 hóspedes)",
                     "valor": "R$200.000,00",
+                    "localizacao": "https://maps.app.goo.gl/hBdWXJjJ6a7aEXTW9",
                     "detalhes": "Bela casa com 3 suítes + 2 quartos \n Muito espaçosa , Área Gourmet completa \n Duas Cozinhas e duas salas independentes \n Imóvel muito bem localizado e dispõe de academia privativa.",
                     "imagens": [
                         {
@@ -381,8 +385,9 @@
                     ]
                 },
                 {
-                    "texto": "Condiínio City Park (10 a 12 hóspedes)",
+                    "texto": "Condomínio City Park (10 a 12 hóspedes)",
                     "valor": "R$160.000,00",
+                    "localizacao": "https://maps.app.goo.gl/Zzq69cS3mXYvBErD7",
                     "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, piscina, área Gourmet completa \n Condomínio completo com muita segurança.",
                     "imagens": [
                         {
@@ -475,6 +480,7 @@
                 {
                     "texto": "2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
                     "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
                     "imagens": [
                         {
@@ -523,6 +529,7 @@
                 {
                     "texto": "2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
                     "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
                     "imagens": [
                         {

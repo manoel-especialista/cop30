@@ -139,12 +139,12 @@ function mostrarDetalhes(tipo, wame) {
 
             // Adiciona evento ao botão para abrir o carrossel e ajustar o link do WhatsApp
             saibaMaisBtn.addEventListener('click', () => {
-                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes);
+                atualizarCarrossel(detalhe);
                 atualizarLinkWhatsApp(wame, detalhe.texto); // Atualiza o botão WhatsApp
             });
 
             imgDetalhe.addEventListener('click', () => {
-                atualizarCarrossel(detalhe.imagens, detalhe.texto, detalhe.detalhes);
+                atualizarCarrossel(detalhe);
                 atualizarLinkWhatsApp(wame, detalhe.texto); // Atualiza o botão WhatsApp
             });
 
@@ -171,7 +171,9 @@ function mostrarDetalhes(tipo, wame) {
     atualizarLinkWhatsApp(wameOriginal);
 }
 
-function atualizarCarrossel(imagens, titulo, detalhes) {
+function atualizarCarrossel(dados) {
+
+    let {imagens, titulo, detalhes, localizacao} = dados;
     // Atualiza o título no modalLabel (cabeçalho do carrossel)
     const modalLabel = document.getElementById('carrosselModalLabel');
     modalLabel.textContent = titulo;
@@ -179,7 +181,8 @@ function atualizarCarrossel(imagens, titulo, detalhes) {
     // Atualiza o rodapé com os detalhes
     const detalhesTexto = detalhes.replace(/\n/g, '<br>'); // Substitui \n por <br>
     const modalFooter = document.getElementById('carrosselModalFooter');
-    modalFooter.innerHTML = detalhesTexto || 'Nenhuma informação adicional disponível.';
+    modalFooter.innerHTML = `<a href="${localizacao}" target="_blank" class="text-primary"><i class="fas fa-map-marker-alt fa-2x"></i> Localização</a><br>` || '';
+    modalFooter.innerHTML += detalhesTexto || 'Nenhuma informação adicional disponível.';
 
     const carouselInner = document.querySelector('#carrosselImagens .carousel-inner');
     carouselInner.innerHTML = ''; // Limpa o conteúdo existente do carrossel
