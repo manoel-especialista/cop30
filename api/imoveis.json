@@ -6,9 +6,9 @@
             "tipo": "Casas",
             "detalhes": [
                 {
-                    "texto": "Casa Miriti (6 a 8 hóspedes)",
+                    "texto": "Condomínio Jardim Marsella (6 a 8 hóspedes)",
                     "valor": "R$120.000,00",
-                    "detalhes": "Casa com 4 suítes \n Ótimo para a temporada COP 30",
+                    "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condimínio completo com muita segurança.",
                     "imagens": [
                         {
                             "href": "img/casa/miriti/1.jpg",
@@ -129,9 +129,9 @@
                     ]
                 },
                 {
-                    "texto": "Casa Itororó (12 a 15 hóspedes)",
-                    "valor": "R$195.000,00",
-                    "detalhes": "Casa com 4 suítes",
+                    "texto": "Condomínio Itororó (12 a 15 hóspedes)",
+                    "valor": "R$220.000,00",
+                    "detalhes": "Bela casa com 5 suítes + 01 quarto \n Muito espaçosa e toda avarandada e área Gourmet completa \n Imóvel em Condimínio com segurança e bem próximo ao evento da COP.",
                     "imagens": [
                         {
                             "href": "img/casa/itororo/1.jpg",
@@ -264,9 +264,9 @@
                     ]
                 },
                 {
-                    "texto": "Casa Firenze (8 a 10 hóspedes)",
+                    "texto": "Condomínio Villa Firenze (8 a 10 hóspedes)",
                     "valor": "R$150.000,00",
-                    "detalhes": "Casa com 4 suítes",
+                    "detalhes": "Bela casa com 4 suítes \n Muito espaçosa ,área Gourmet completa \n Imóvel em Condimínio com total segurança e área de laser completa.",
                     "imagens": [
                         {
                             "href": "img/casa/firenze/1.jpg",
@@ -303,8 +303,8 @@
                 },
                 {
                     "texto": "Casa Centro (12 a 15 hóspedes)",
-                    "valor": "R$190.000,00",
-                    "detalhes": "Casa com 4 suítes",
+                    "valor": "R$200.000,00",
+                    "detalhes": "Bela casa com 3 suítes + 2 quartos \n Muito espaçosa , Área Gourmet completa \n Duas Cozinhas e duas salas independentes \n Imóvel muito bem localizado e dispõe de academia privativa.",
                     "imagens": [
                         {
                             "href": "img/casa/3maio/1.jpg",
@@ -381,9 +381,9 @@
                     ]
                 },
                 {
-                    "texto": "Casa Parque Verde (12 a 15 hóspedes)",
-                    "valor": "R$190.000,00",
-                    "detalhes": "Casa com 4 suítes",
+                    "texto": "Condiínio City Park (10 a 12 hóspedes)",
+                    "valor": "R$160.000,00",
+                    "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, piscina, área Gourmet completa \n Condimínio completo com muita segurança.",
                     "imagens": [
                         {
                             "href": "img/casa/pverde/1.jpg",
@@ -473,7 +473,7 @@
             "tipo": "Apartamentos",
             "detalhes": [
                 {
-                    "texto": "Apartamento 2 Quartos (04 a 06 hóspedes)",
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$100.000,00",
                     "detalhes": "Casa com 4 suítes",
                     "imagens": [
@@ -521,7 +521,7 @@
                     ]
                 },
                 {
-                    "texto": "Apartamento 2 Quartos (04 a 06 hóspedes)",
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$100.000,00",
                     "detalhes": "Casa com 4 suítes",
                     "imagens": [

@@ -43,9 +43,16 @@ html {
 /* ---------------------- Banner Hero ---------------------- */
 header {
     background-color: #343a40;
-    color: #fff;
     padding: 50px 20px;
     text-align: center;
+}
+
+.bg-primary {
+    background-color: #2c3e50!important;   
+}
+
+.container h1 {
+    color: #fff!important;
 }
 
 header h1 {
