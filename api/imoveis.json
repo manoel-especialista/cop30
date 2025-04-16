@@ -559,6 +559,94 @@
                             "descricao": "Localização"
                         }
                     ]
+                },
+                {
+                    "texto": "Condomínio City Park (10 a 12 hóspedes)",
+                    "valor": "R$160.000,00",
+                    "localizacao": "https://maps.app.goo.gl/Zzq69cS3mXYvBErD7",
+                    "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, piscina, área Gourmet completa \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/pverde/1.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/pverde/2.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/pverde/3.jpg",
+                            "descricao": "Entrada"
+                        },
+                        {
+                            "href": "img/casa/pverde/4.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/pverde/5.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/6.jpg",
+                            "descricao": "Sala 2"
+                        },
+                        {
+                            "href": "img/casa/pverde/7.jpg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/casa/pverde/8.jpg",
+                            "descricao": "Área gourmet"
+                        },
+                        {
+                            "href": "img/casa/pverde/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/10.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/pverde/11.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/casa/pverde/12.jpg",
+                            "descricao": "Closet"
+                        },
+                        {
+                            "href": "img/casa/pverde/13.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/14.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/pverde/15.jpg",
+                            "descricao": "Closet 2"
+                        },
+                        {
+                            "href": "img/casa/pverde/16.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/pverde/17.jpg",
+                            "descricao": "Suíte 3"
+                        },
+                        {
+                            "href": "img/casa/pverde/18.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/casa/pverde/19.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/pverde/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
                 }
             ]
         },
