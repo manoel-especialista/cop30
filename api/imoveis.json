@@ -709,6 +709,82 @@
                             "descricao": "Localização"
                         }
                     ]
+                },
+                {
+                    "texto": "3 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$160.000,00",
+                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
+                    "detalhes": "3 suíte + 1 Gabinete \n Apartamento com belo acabamento e muito espaçoso \n Espaço totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/rivia/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/2.jpg",
+                            "descricao": "Fachada"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/3.jpg",
+                            "descricao": "Gabinete"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/4.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/5.jpg",
+                            "descricao": "Cozinha"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/6.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/7.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/8.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/9.jpg",
+                            "descricao": "Varanda Gourmet com Churrasqueira"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/10.jpg",
+                            "descricao": "Suite principal"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/11.jpg",
+                            "descricao": "Suite principal"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/12.jpg",
+                            "descricao": "Suite 02"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/13.jpg",
+                            "descricao": "Suite 03"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/14.jpg",
+                            "descricao": "Banheiro 01"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/15.jpg",
+                            "descricao": "Banheiro 02"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/16.jpg",
+                            "descricao": "Banheiro 03"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
                 }
             ]
         }
