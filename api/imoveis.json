@@ -224,83 +224,43 @@
                     "detalhes": "Bela casa com 3 Quartos + 01 quarto \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP 30.",
                     "imagens": [
                         {
-                            "href": "img/casa/rui/1.jpg",
+                            "href": "img/casa/victor/1.jpg",
                             "descricao": "Fachada"
                         },
                         {
-                            "href": "img/casa/rui/2.jpg",
-                            "descricao": "Garagem para 02 carros"
+                            "href": "img/casa/victor/2.jpg",
+                            "descricao": "Sala"
                         },
                         {
-                            "href": "img/casa/rui/3.jpg",
-                            "descricao": "Sala de Estar"
+                            "href": "img/casa/victor/3.jpg",
+                            "descricao": "Cozinha"
                         },
                         {
-                            "href": "img/casa/rui/4.jpg",
-                            "descricao": "Escritório"
+                            "href": "img/casa/victor/4.jpg",
+                            "descricao": "Hall"
                         },
                         {
-                            "href": "img/casa/rui/5.jpg",
-                            "descricao": "Área de circulação externa"
+                            "href": "img/casa/victor/5.jpg",
+                            "descricao": "Área de circulação"
                         },
                         {
-                            "href": "img/casa/rui/6.jpg",
-                            "descricao": "Sala de Jantar"
-                        },
-                        {
-                            "href": "img/casa/rui/7.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/casa/rui/8.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/rui/9.jpg",
+                            "href": "img/casa/victor/6.jpg",
                             "descricao": "Quarto 02"
                         },
                         {
-                            "href": "img/casa/rui/10.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/rui/11.jpg",
+                            "href": "img/casa/victor/7.jpg",
                             "descricao": "Quarto 03"
                         },
                         {
-                            "href": "img/casa/rui/12.jpg",
-                            "descricao": "Quarto 03"
+                            "href": "img/casa/victor/8.jpg",
+                            "descricao": "Sala com Closet"
                         },
                         {
-                            "href": "img/casa/rui/13.jpg",
-                            "descricao": "Banheiro"
+                            "href": "img/casa/victor/9.jpg",
+                            "descricao": "Suite principal"
                         },
                         {
-                            "href": "img/casa/rui/14.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/rui/15.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/casa/rui/16.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/rui/17.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/casa/rui/18.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/rui/19.jpg",
-                            "descricao": "Cozinha 100% Equipada"
-                        },
-                        {
-                            "href": "img/casa/rui/maps.jpg",
+                            "href": "img/casa/rvictorui/maps.jpg",
                             "descricao": "Localização privilegiada"
                         }
                     ]
