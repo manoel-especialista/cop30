@@ -973,6 +973,50 @@
                             "descricao": "Localização"
                         }
                     ]
+                },
+                {
+                    "texto": "Pancetti - 3 Quartos (06 a 08 hóspedes)",
+                    "valor": "R$110.000,00",
+                    "localizacao": "https://maps.app.goo.gl/DefJNhQ4t8jW53rP7",
+                    "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/pancetti/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/2.jpg",
+                            "descricao": "Fachada"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/3.jpg",
+                            "descricao": "Hall de Entrada"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/4.jpg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/5.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/7.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/8.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/pancetti/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
                 }
             ]
         }
