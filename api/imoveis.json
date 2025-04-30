@@ -847,6 +847,78 @@
                     ]
                 },
                 {
+                    "texto": "TD-Albatroz-601 - 3 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$150.000,00",
+                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
+                    "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/helenatd/1.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/4.jpg",
+                            "descricao": "Condomínio- Aéra externa"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/5.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/7.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/8.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/9.jpg",
+                            "descricao": "Quarto 03"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/10.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/11.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/12.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/13.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/14.jpg",
+                            "descricao": "Cozinha"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/15.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/helenatd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "TD-Albatroz-702 - 3 Quartos (06 a 08 hóspedes)",
                     "valor": "R$150.000,00",
                     "localizacao": "https://maps.app.goo.gl/zqPVPcaf6NrJ1H4ZA",
