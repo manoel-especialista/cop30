@@ -1085,6 +1085,110 @@
                             "descricao": "Localização"
                         }
                     ]
+                },
+                {
+                    "texto": "RV104- 3 Quartos (06 a 08 hóspedes)",
+                    "valor": "R$150.000,00",
+                    "localizacao": "https://maps.app.goo.gl/RGrpyyLUu7DeZqXG8",
+                    "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/danifortunato/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/4.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/6.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/7.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/8.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/9.jpg",
+                            "descricao": "Porta de entrada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/10.jpg",
+                            "descricao": "Fechadura Eletrônica"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/11.jpg",
+                            "descricao": "Sofá"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/12.jpg",
+                            "descricao": "Suite principal"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/13.jpg",
+                            "descricao": "Suite principal"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/14.jpg",
+                            "descricao": "Suite principal"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/15.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/16.jpg",
+                            "descricao": "Quarto 01 - Cama Solteiro + Cama auxiliar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/17.jpg",
+                            "descricao": "Quarto 02 - Cama Solteiro + Cama auxiliar"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/18.jpg",
+                            "descricao": "Banheiro Social"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/19.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/20.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/21.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/22.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/23.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/24.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/danifortunato/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
                 }
             ]
         }
