@@ -260,7 +260,71 @@
                             "descricao": "Suite principal"
                         },
                         {
-                            "href": "img/casa/rvictorui/maps.jpg",
+                            "href": "img/casa/victor/maps.jpg",
+                            "descricao": "Localização privilegiada"
+                        }
+                    ]
+                },
+                {
+                    "texto": "Condomínio Bancrévea (08 a 10 hóspedes)",
+                    "valor": "R$190.000,00",
+                    "localizacao": "https://maps.app.goo.gl/oknbPP9h2wZM3YaM9",
+                    "detalhes": "Bela casa com 4 Quartos \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP 30.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/silvane/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/casa/silvane/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/silvane/3.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/casa/silvane/4.jpg",
+                            "descricao": "Lavabo"
+                        },
+                        {
+                            "href": "img/casa/silvane/5.jpg",
+                            "descricao": "Suite 01"
+                        },
+                        {
+                            "href": "img/casa/silvane/6.jpg",
+                            "descricao": "Banheiro 01"
+                        },
+                        {
+                            "href": "img/casa/silvane/7.jpg",
+                            "descricao": "Suite 02"
+                        },
+                        {
+                            "href": "img/casa/silvane/8.jpg",
+                            "descricao": "Banheiro 02"
+                        },
+                        {
+                            "href": "img/casa/silvane/9.jpg",
+                            "descricao": "Suite 03"
+                        },
+                        {
+                            "href": "img/casa/silvane/10.jpg",
+                            "descricao": "Suite 03"
+                        },
+                        {
+                            "href": "img/casa/silvane/11.jpg",
+                            "descricao": "Salão espaçoso"
+                        },
+                        {
+                            "href": "img/casa/silvane/12.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/silvane/13.jpg",
+                            "descricao": "Área Gourmet com Churrasqueira"
+                        },
+                        {
+                            "href": "img/casa/silvane/maps.jpg",
                             "descricao": "Localização privilegiada"
                         }
                     ]
