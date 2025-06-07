@@ -449,6 +449,54 @@
                     ]
                 },
                 {
+                    "texto": "Casa Praça da República (08 a 10 hóspedes)",
+                    "valor": "R$190.000,00",
+                    "localizacao": "https://maps.app.goo.gl/n7t2TmXsMGn3sbCM9",
+                    "detalhes": "Bela casa com 3 suítes + 1 quartos \n Muito espaçosa , \n a 100m da Praça da República \n Imóvel muito bem localizado e prõximo da Estação das Docas, Teatro da Paz, Shopping e Restaurantes.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/miguel/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/miguel/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/casa/miguel/3.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/miguel/4.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/miguel/5.jpg",
+                            "descricao": "Closet"
+                        },
+                        {
+                            "href": "img/casa/miguel/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/miguel/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/miguel/8.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/miguel/9.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/miguel/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "Condomínio City Park (08 a 10 hóspedes)",
                     "valor": "R$160.000,00",
                     "localizacao": "https://maps.app.goo.gl/Zzq69cS3mXYvBErD7",
@@ -630,6 +678,46 @@
                         },
                         {
                             "href": "img/apartamento/appai/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/appai/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/mMQnr3wdHGPUhsqW6",
+                    "detalhes": "2 quartos \n Espaço bem aconchegante e totalmente nascente \n Condomínio com excelente localização e próximo a restaurantes, supermercados e farmácias.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/aracy/1.jpg",
+                            "descricao": "Localização privilegiada"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/3.jpg",
+                            "descricao": "Cozinha + Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/4.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/5.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/aracy/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/7.jpg",
                             "descricao": "Banheiro"
                         },
                         {
@@ -965,12 +1053,72 @@
                             "descricao": "Corredor"
                         },
                         {
-                            "href": "img/apartamento/rivia/maps.jpg",
+                            "href": "img/apartamento/robertatd/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
                 },
                 {
+                    "texto": "TD-Pardelas-1405 - 2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$110.000,00",
+                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
+                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/danielletd/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/3.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/4.jpg",
+                            "descricao": "Sacada - Area Gourmet"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/5.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/7.jpg",
+                            "descricao": "Cozinha e Sala Integrada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/8.jpg",
+                            "descricao": "Cozinha e     "
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/9.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/10.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/11.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/12.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                }
+                ,{
                     "texto": "Pancetti - 3 Quartos (06 a 08 hóspedes)",
                     "valor": "R$110.000,00",
                     "localizacao": "https://maps.app.goo.gl/DefJNhQ4t8jW53rP7",
