@@ -583,6 +583,66 @@
                             "descricao": "Localização"
                         }
                     ]
+                },
+                {
+                    "texto": "Condomínio Basa 01 (06 a 08 hóspedes)",
+                    "valor": "R$120.000,00",
+                    "localizacao": "https://maps.app.goo.gl/C19pYUaUA73beFkg9",
+                    "detalhes": "Casa com 3 quartos! \n Condomínio fechado e com localização privilegiada.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/basawanessa/1.jpg",
+                            "descricao": "Frente"
+                        },  
+                        {
+                            "href": "img/casa/basawanessa/2.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/3.jpg",
+                            "descricao": "Entrada"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/4.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/5.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/6.jpg",
+                            "descricao": "Sala 2"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/7.jpg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/8.jpg",
+                            "descricao": "Área gourmet"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/10.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/11.jpg",
+                            "descricao": "Escritório"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/12.jpg",
+                            "descricao": "Closet"
+                        },
+                        {
+                            "href": "img/casa/basawanessa/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
                 }
             ]
         },
