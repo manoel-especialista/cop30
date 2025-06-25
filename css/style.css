@@ -90,6 +90,7 @@ header a:hover {
 }
 
 .tipo-card {
+    flex: 0 1 calc(50% - 200px); /* Dois por linha com espaço de 15px */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
 }
