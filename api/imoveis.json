@@ -131,7 +131,7 @@
                 },
                 {
                     "texto": "Condomínio Bancrévea (08 a 10 hóspedes)",
-                    "valor": "R$190.000,00",
+                    "valor": "RESERVADA",
                     "localizacao": "https://maps.app.goo.gl/oknbPP9h2wZM3YaM9",
                     "detalhes": "Bela casa com 4 Quartos \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP 30.",
                     "imagens": [
@@ -195,7 +195,7 @@
                 },
                 {
                     "texto": "Condomínio Itororó (12 a 15 hóspedes)",
-                    "valor": "R$220.000,00",
+                    "valor": "RESERVADA",
                     "localizacao": "https://maps.app.goo.gl/SxotA7d9R4WiPSAy5",
                     "detalhes": "Bela casa com 5 suítes + 01 quarto \n Muito espaçosa e toda avarandada e área Gourmet completa \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP.",
                     "imagens": [
@@ -498,7 +498,7 @@
                 },
                 {
                     "texto": "Condomínio City Park (08 a 10 hóspedes)",
-                    "valor": "R$160.000,00",
+                    "valor": "RESERVADA",
                     "localizacao": "https://maps.app.goo.gl/Zzq69cS3mXYvBErD7",
                     "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, piscina, área Gourmet completa \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -702,144 +702,79 @@
             "tipo": "Apartamentos",
             "detalhes": [
                 {
-                    "texto": "2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$100.000,00",
-                    "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
-                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
+                    "texto": "PORTO - 3 Quartos (06 a 07 hóspedes)",
+                    "valor": "R$120.000,00",
+                    "localizacao": "https://maps.app.goo.gl/dCzw2fzDVQSmVeWGA",
+                    "detalhes": "3 Quartos (1 Suíte) \n Apartamento com belo acabamento e muito espaçoso \n Qaurtos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
                         {
-                            "href": "img/apartamento/apfilho/1.jpg",
-                            "descricao": "Sala de Jantar"
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/2.jpg",
-                            "descricao": "Sala de Jantar"
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/3.jpg",
+                            "href": "img/apartamento/alexandreporto/1.jpg",
                             "descricao": "Sala de Estar"
                         },
                         {
-                            "href": "img/apartamento/apfilho/4.jpg",
-                            "descricao": "Área Relax"
+                            "href": "img/apartamento/alexandreporto/2.jpg",
+                            "descricao": "Sala de Esta"
                         },
                         {
-                            "href": "img/apartamento/apfilho/5.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/6.jpg",
-                            "descricao": "Cozinha + Lavanderia"
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/7.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/8.jpg",
-                            "descricao": "Quarto 02 "
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/9.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/apartamento/apfilho/maps.jpg",
-                            "descricao": "Localização"
-                        }
-
-                    ]
-                },
-                {
-                    "texto": "2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$100.000,00",
-                    "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
-                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/appai/1.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/appai/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/appai/3.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/appai/4.jpg",
+                            "href": "img/apartamento/alexandreporto/3.jpg",
                             "descricao": "Sacada"
                         },
                         {
-                            "href": "img/apartamento/appai/5.jpg",
-                            "descricao": "Cozinha + Lavanderia"
+                            "href": "img/apartamento/alexandreporto/4.jpg",
+                            "descricao": "Cozinha 100% Equipada"
                         },
                         {
-                            "href": "img/apartamento/appai/6.jpg",
-                            "descricao": "Quarto 01"
+                            "href": "img/apartamento/alexandreporto/5.jpg",
+                            "descricao": "Cozinha"
                         },
                         {
-                            "href": "img/apartamento/appai/7.jpg",
+                            "href": "img/apartamento/alexandreporto/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreporto/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreporto/8.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreporto/9.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreporto/10.jpg",
                             "descricao": "Banheiro"
                         },
                         {
-                            "href": "img/apartamento/appai/8.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/apartamento/appai/9.jpg",
+                            "href": "img/apartamento/alexandreporto/11.jpg",
                             "descricao": "Banheiro"
                         },
                         {
-                            "href": "img/apartamento/appai/maps.jpg",
+                            "href": "img/apartamento/alexandreporto/12.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/rialexandreportovia/13.jpg",
+                            "descricao": "Academia"
+                        },
+                        {
+                            "href": "img/apartamento/rialexandreportovia/14.jpg",
+                            "descricao": "Garagem"
+                        },
+                        {
+                            "href": "img/apartamento/rialexandreportovia/15.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/apartamento/rivia/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
                 },
                 {
-                    "texto": "2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$100.000,00",
-                    "localizacao": "https://maps.app.goo.gl/mMQnr3wdHGPUhsqW6",
-                    "detalhes": "2 quartos \n Espaço bem aconchegante e totalmente nascente \n Condomínio com excelente localização e próximo a restaurantes, supermercados e farmácias.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/aracy/1.jpg",
-                            "descricao": "Localização privilegiada"
-                        },
-                        {
-                            "href": "img/apartamento/aracy/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/aracy/3.jpg",
-                            "descricao": "Cozinha + Lavanderia"
-                        },
-                        {
-                            "href": "img/apartamento/aracy/4.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/aracy/5.jpg",
-                            "descricao": "Quarto 02 "
-                        },
-                        {
-                            "href": "img/apartamento/aracy/6.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/apartamento/aracy/7.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/apartamento/appai/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                },
-                {
-                    "texto": "3 Suites + Gabinete (04 a 06 hóspedes)",
+                    "texto": "MARES - 3 Suites + Gabinete (04 a 06 hóspedes)",
                     "valor": "R$160.000,00",
                     "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
                     "detalhes": "3 suíte + 1 Gabinete \n Apartamento com belo acabamento e muito espaçoso \n Espaço totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
@@ -1115,122 +1050,6 @@
                     ]
                 },
                 {
-                    "texto": "TD-Pardelas-604 - 2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$110.000,00",
-                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
-                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/robertatd/1.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/2.jpg",
-                            "descricao": "Condomínio- Aéra externa"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/3.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/4.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/5.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/6.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/7.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/8.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/9.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/10.jpg",
-                            "descricao": "Sacada"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/11.jpg",
-                            "descricao": "Corredor"
-                        },
-                        {
-                            "href": "img/apartamento/robertatd/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                },
-                {
-                    "texto": "TD-Pardelas-1405 - 2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$110.000,00",
-                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
-                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/danielletd/1.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/3.jpg",
-                            "descricao": "Sacada"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/4.jpg",
-                            "descricao": "Sacada - Area Gourmet"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/5.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/6.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/7.jpg",
-                            "descricao": "Cozinha e Sala Integrada"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/8.jpg",
-                            "descricao": "Cozinha e     "
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/9.jpg",
-                            "descricao": "Cozinha 100% Equipada"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/10.jpg",
-                            "descricao": "Cozinha 100% Equipada"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/11.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/12.jpg",
-                            "descricao": "Quarto 02 "
-                        },
-                        {
-                            "href": "img/apartamento/danielletd/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                }
-                ,{
                     "texto": "Pancetti - 3 Quartos (06 a 08 hóspedes)",
                     "valor": "R$110.000,00",
                     "localizacao": "https://maps.app.goo.gl/DefJNhQ4t8jW53rP7",
@@ -1374,6 +1193,307 @@
                         },
                         {
                             "href": "img/apartamento/danifortunato/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "TD-Pardelas-604 - 2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$110.000,00",
+                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
+                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/robertatd/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/2.jpg",
+                            "descricao": "Condomínio- Aéra externa"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/4.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/5.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/7.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/8.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/9.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/10.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/11.jpg",
+                            "descricao": "Corredor"
+                        },
+                        {
+                            "href": "img/apartamento/robertatd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "TD-Pardelas-1405 - 2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$110.000,00",
+                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
+                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/danielletd/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/3.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/4.jpg",
+                            "descricao": "Sacada - Area Gourmet"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/5.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/7.jpg",
+                            "descricao": "Cozinha e Sala Integrada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/8.jpg",
+                            "descricao": "Cozinha e     "
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/9.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/10.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/11.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/12.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/danielletd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                }
+                ,{
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
+                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/apfilho/1.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/4.jpg",
+                            "descricao": "Área Relax"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/5.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/6.jpg",
+                            "descricao": "Cozinha + Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/8.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/apfilho/maps.jpg",
+                            "descricao": "Localização"
+                        }
+
+                    ]
+                },
+                {
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
+                    "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/appai/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/appai/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/appai/3.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/appai/4.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/appai/5.jpg",
+                            "descricao": "Cozinha + Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/appai/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/appai/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/appai/8.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/appai/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/appai/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/mMQnr3wdHGPUhsqW6",
+                    "detalhes": "2 quartos \n Espaço bem aconchegante e totalmente nascente \n Condomínio com excelente localização e próximo a restaurantes, supermercados e farmácias.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/aracy/1.jpg",
+                            "descricao": "Localização privilegiada"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/3.jpg",
+                            "descricao": "Cozinha + Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/4.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/5.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/aracy/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/aracy/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "ELBA - 1 Quarto (02 a 03 hóspedes)",
+                    "valor": "R$60.000,00",
+                    "localizacao": "https://maps.app.goo.gl/ZRMQew8SGtzSByAm8",
+                    "detalhes": "1 quarto \n Espaço bem aconchegante\n Condomínio com excelente localização.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/alexandreelba/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/3.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/4.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/5.jpg",
+                            "descricao": "Mesa apoio"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/6.jpg",
+                            "descricao": "Sala"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/7.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/8.jpg",
+                            "descricao": "Academia"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/9.jpg",
+                            "descricao": "Hall"
+                        },
+                        {
+                            "href": "img/apartamento/alexandreelba/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
