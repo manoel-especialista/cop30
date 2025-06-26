@@ -1009,6 +1009,74 @@
             "tipo": "Apartamentos - 3 Quartos",
             "detalhes": [
                 {
+                    "texto": "MENDONZA - 3 Suites (06 a 07 hóspedes)",
+                    "valor": "R$140.000,00",
+                    "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/felipemendonza/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/3.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/4.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/5.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/8.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/9.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/10.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/11.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/12.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/13.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/14.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "PORTO - 3 Quartos (06 a 07 hóspedes)",
                     "valor": "R$120.000,00",
                     "localizacao": "https://maps.app.goo.gl/dCzw2fzDVQSmVeWGA",
