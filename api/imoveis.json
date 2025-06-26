@@ -751,6 +751,62 @@
             "tipo": "Apartamentos - 2 Quartos",
             "detalhes": [
                 {
+                    "texto": "BATISTA CAMPOS - 2 Suítes (04 a 06 hóspedes)",
+                    "valor": "R$90.000,00",
+                    "localizacao": "https://maps.app.goo.gl/S4o2dErcJAmFugJ76",
+                    "detalhes": "2 suítes \n Espaço bem aconchegante em frente a praça Batista Campos\n Condomínio completo com muita segurança e com localização privilegiada",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/flaviodr/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/3.jpg",
+                            "descricao": "Cozinha 100% equipada"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/4.jpg",
+                            "descricao": "Cozinha 100% equipada"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/5.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/7.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/8.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/10.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/11.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/flaviodr/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "TD-Pardelas-604 - 2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$110.000,00",
                     "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
