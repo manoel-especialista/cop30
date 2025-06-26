@@ -1002,54 +1002,6 @@
                             "descricao": "Localização"
                         }
                     ]
-                },
-                {
-                    "texto": "ELBA - 1 Quarto (02 a 03 hóspedes)",
-                    "valor": "R$60.000,00",
-                    "localizacao": "https://maps.app.goo.gl/ZRMQew8SGtzSByAm8",
-                    "detalhes": "1 quarto \n Espaço bem aconchegante\n Condomínio com excelente localização.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/alexandreelba/1.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/3.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/4.jpg",
-                            "descricao": "Cozinha 100% Equipada"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/5.jpg",
-                            "descricao": "Mesa apoio"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/6.jpg",
-                            "descricao": "Sala"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/7.jpg",
-                            "descricao": "Piscina"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/8.jpg",
-                            "descricao": "Academia"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/9.jpg",
-                            "descricao": "Hall"
-                        },
-                        {
-                            "href": "img/apartamento/alexandreelba/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
                 }
             ]
         },
