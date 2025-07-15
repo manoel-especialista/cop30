@@ -130,206 +130,6 @@
                     ]
                 },
                 {
-                    "texto": "Condomínio Bancrévea (08 a 10 hóspedes)",
-                    "valor": "RESERVADA",
-                    "localizacao": "https://maps.app.goo.gl/oknbPP9h2wZM3YaM9",
-                    "detalhes": "Bela casa com 4 Quartos \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP 30.",
-                    "imagens": [
-                        {
-                            "href": "img/casa/silvane/1.jpg",
-                            "descricao": "Sala de Estar e Jantar"
-                        },
-                        {
-                            "href": "img/casa/silvane/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/casa/silvane/3.jpg",
-                            "descricao": "Escritório"
-                        },
-                        {
-                            "href": "img/casa/silvane/4.jpg",
-                            "descricao": "Lavabo"
-                        },
-                        {
-                            "href": "img/casa/silvane/5.jpg",
-                            "descricao": "Suite 01"
-                        },
-                        {
-                            "href": "img/casa/silvane/6.jpg",
-                            "descricao": "Banheiro 01"
-                        },
-                        {
-                            "href": "img/casa/silvane/7.jpg",
-                            "descricao": "Suite 02"
-                        },
-                        {
-                            "href": "img/casa/silvane/8.jpg",
-                            "descricao": "Banheiro 02"
-                        },
-                        {
-                            "href": "img/casa/silvane/9.jpg",
-                            "descricao": "Suite 03"
-                        },
-                        {
-                            "href": "img/casa/silvane/10.jpg",
-                            "descricao": "Suite 03"
-                        },
-                        {
-                            "href": "img/casa/silvane/11.jpg",
-                            "descricao": "Salão espaçoso"
-                        },
-                        {
-                            "href": "img/casa/silvane/12.jpg",
-                            "descricao": "Cozinha 100% Equipada"
-                        },
-                        {
-                            "href": "img/casa/silvane/13.jpg",
-                            "descricao": "Área Gourmet com Churrasqueira"
-                        },
-                        {
-                            "href": "img/casa/silvane/maps.jpg",
-                            "descricao": "Localização privilegiada"
-                        }
-                    ]
-                },
-                {
-                    "texto": "Condomínio Itororó (12 a 15 hóspedes)",
-                    "valor": "RESERVADA",
-                    "localizacao": "https://maps.app.goo.gl/SxotA7d9R4WiPSAy5",
-                    "detalhes": "Bela casa com 5 suítes + 01 quarto \n Muito espaçosa e toda avarandada e área Gourmet completa \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP.",
-                    "imagens": [
-                        {
-                            "href": "img/casa/itororo/1.jpg",
-                            "descricao": "Área externa"
-                        },
-                        {
-                            "href": "img/casa/itororo/2.jpg",
-                            "descricao": "Sala"
-                        },
-                        {
-                            "href": "img/casa/itororo/3.jpg",
-                            "descricao": "Sala"
-                        },
-                        {
-                            "href": "img/casa/itororo/4.jpg",
-                            "descricao": "Sala"
-                        },
-                        {
-                            "href": "img/casa/itororo/5.jpg",
-                            "descricao": "Cozinha"
-                        },
-                        {
-                            "href": "img/casa/itororo/6.jpg",
-                            "descricao": "Cozinha"
-                        },
-                        {
-                            "href": "img/casa/itororo/7.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/casa/itororo/8.jpg",
-                            "descricao": "Sala"
-                        },
-                        {
-                            "href": "img/casa/itororo/9.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/10.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/11.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/12.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/13.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/14.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/15.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/16.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/17.jpg",
-                            "descricao": "Quarto"
-                        },
-                        {
-                            "href": "img/casa/itororo/18.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/19.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/20.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/21.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/22.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/23.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/24.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/25.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/26.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/itororo/27.jpg",
-                            "descricao": "Área externa"
-                        },
-                        {
-                            "href": "img/casa/itororo/28.jpg",
-                            "descricao": "Varanda"
-                        },
-                        {
-                            "href": "img/casa/itororo/29.jpg",
-                            "descricao": "Churrasqueira"
-                        },
-                        {
-                            "href": "img/casa/itororo/30.jpg",
-                            "descricao": "Piscina"
-                        },
-                        {
-                            "href": "img/casa/itororo/31.jpg",
-                            "descricao": "Piscina"
-                        },
-                        {
-                            "href": "img/casa/itororo/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                },
-                {
                     "texto": "Condomínio Villa Firenze (8 a 10 hóspedes)",
                     "valor": "R$140.000,00",
                     "localizacao": "https://maps.app.goo.gl/9N2pSLv2qi4yixEG9",
@@ -492,94 +292,6 @@
                         },
                         {
                             "href": "img/casa/miguel/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                },
-                {
-                    "texto": "Condomínio City Park (08 a 10 hóspedes)",
-                    "valor": "RESERVADA",
-                    "localizacao": "https://maps.app.goo.gl/Zzq69cS3mXYvBErD7",
-                    "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, piscina, área Gourmet completa \n Condomínio completo com muita segurança.",
-                    "imagens": [
-                        {
-                            "href": "img/casa/pverde/1.jpg",
-                            "descricao": "Frente"
-                        },
-                        {
-                            "href": "img/casa/pverde/2.jpg",
-                            "descricao": "Frente"
-                        },
-                        {
-                            "href": "img/casa/pverde/3.jpg",
-                            "descricao": "Entrada"
-                        },
-                        {
-                            "href": "img/casa/pverde/4.jpg",
-                            "descricao": "Sala"
-                        },
-                        {
-                            "href": "img/casa/pverde/5.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/pverde/6.jpg",
-                            "descricao": "Sala 2"
-                        },
-                        {
-                            "href": "img/casa/pverde/7.jpg",
-                            "descricao": "Área externa com piscina"
-                        },
-                        {
-                            "href": "img/casa/pverde/8.jpg",
-                            "descricao": "Área gourmet"
-                        },
-                        {
-                            "href": "img/casa/pverde/9.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/pverde/10.jpg",
-                            "descricao": "Suíte"
-                        },
-                        {
-                            "href": "img/casa/pverde/11.jpg",
-                            "descricao": "Escritório"
-                        },
-                        {
-                            "href": "img/casa/pverde/12.jpg",
-                            "descricao": "Closet"
-                        },
-                        {
-                            "href": "img/casa/pverde/13.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/pverde/14.jpg",
-                            "descricao": "Suíte"
-                        },
-                        {
-                            "href": "img/casa/pverde/15.jpg",
-                            "descricao": "Closet 2"
-                        },
-                        {
-                            "href": "img/casa/pverde/16.jpg",
-                            "descricao": "Banheiro"
-                        },
-                        {
-                            "href": "img/casa/pverde/17.jpg",
-                            "descricao": "Suíte 3"
-                        },
-                        {
-                            "href": "img/casa/pverde/18.jpg",
-                            "descricao": "Lavanderia"
-                        },
-                        {
-                            "href": "img/casa/pverde/19.jpg",
-                            "descricao": "Cozinha 100% Equipada"
-                        },
-                        {
-                            "href": "img/casa/pverde/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
@@ -1065,7 +777,7 @@
             "tipo": "Apartamentos - 3 Quartos",
             "detalhes": [
                 {
-                    "texto": "MENDONZA - 3 Suites (06 a 07 hóspedes)",
+                    "texto": "RIO MENDONZA FELIPE - 3 Suites (06 a 07 hóspedes)",
                     "valor": "R$140.000,00",
                     "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
@@ -1128,6 +840,78 @@
                         },
                         {
                             "href": "img/apartamento/felipemendonza/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "RIO MENDONZA ELIANA - 3 Suites (06 a 07 hóspedes)",
+                    "valor": "R$140.000,00",
+                    "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/eliana/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/3.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/4.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/5.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/6.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/8.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/9.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/10.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/11.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/12.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/13.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/14.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/15.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/eliana/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
@@ -1200,66 +984,6 @@
                         },
                         {
                             "href": "img/apartamento/rivia/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                },
-                {
-                    "texto": "TD-Pardelas-102 - 3 Quartos (06 a 08 hóspedes)",
-                    "valor": "RESERVADO",
-                    "localizacao": "https://maps.app.goo.gl/zqPVPcaf6NrJ1H4ZA",
-                    "detalhes": "1 suíte + 2 quartos \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/olenetd/1.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/3.jpg",
-                            "descricao": "Condomínio- Aéra externa"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/4.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/5.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/6.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/7.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/8.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/9.jpg",
-                            "descricao": "Quarto 03"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/10.jpg",
-                            "descricao": "Quarto 03"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/11.jpg",
-                            "descricao": "Visual do local da COP"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/12.jpg",
-                            "descricao": "Visual do local da COP"
-                        },
-                        {
-                            "href": "img/apartamento/olenetd/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
@@ -1338,7 +1062,7 @@
                 },
                 {
                     "texto": "TD-Albatroz-702 - 3 Quartos (06 a 08 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "valor": "RESERVADO",
                     "localizacao": "https://maps.app.goo.gl/zqPVPcaf6NrJ1H4ZA",
                     "detalhes": "1 suíte + 2 quartos \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
                     "imagens": [
