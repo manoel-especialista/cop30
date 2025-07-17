@@ -62,6 +62,58 @@
                     ]
                 },
                 {
+                    "texto": "Condomínio Bancrévea (06 a 08 hóspedes)",
+                    "valor": "R$120.000,00",
+                    "localizacao": "https://maps.app.goo.gl/LkMKkmH6a5vGRkn4A",
+                    "detalhes": "Casa com 2 Quartos (Sendo 1 suíte) \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP 30.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/andre/1.jpg",
+                            "descricao": "Fachada"
+                        },
+                        {
+                            "href": "img/casa/andre/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/andre/3.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/casa/andre/4.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/andre/5.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/andre/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/andre/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/casa/andre/8.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/andre/9.jpg",
+                            "descricao": "Piscina"
+                        },
+                        {
+                            "href": "img/casa/andre/10.jpg",
+                            "descricao": "Churrasqueira"
+                        },
+                        {
+                            "href": "img/casa/andre/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },                
+                {
                     "texto": "Condomínio Jardim Marsella (6 a 8 hóspedes)",
                     "valor": "R$100.000,00",
                     "localizacao": "https://maps.app.goo.gl/JKHK3zxCLoZGQnsm9",
@@ -833,6 +885,78 @@
             "tipo": "Apartamentos - 3 Quartos",
             "detalhes": [
                 {
+                    "texto": "DI CAVALCANTI (Fernando) - 3 Suites (06 a 07 hóspedes)",
+                    "valor": "R$130.000,00",
+                    "localizacao": "https://maps.app.goo.gl/gJvWaqYWaNkZAn388",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/nandopai/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/2.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/3.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/4.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/5.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/6.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/7.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/8.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/9.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/10.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/11.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/12.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/13.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/14.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/15.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/nandopai/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "TORRES CENARIO (Fernando) - 3 Suites (06 a 07 hóspedes)",
                     "valor": "R$130.000,00",
                     "localizacao": "https://maps.app.goo.gl/7wFVFRZqQNVgQMEy9",
@@ -871,7 +995,7 @@
                             "descricao": "Banheiro"
                         },
                         {
-                            "href": "img/apartamento/felipemendonza/maps.jpg",
+                            "href": "img/apartamento/nando/maps.jpg",
                             "descricao": "Localização"
                         }
                     ]
