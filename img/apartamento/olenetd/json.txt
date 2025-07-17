@@ -1,0 +1,60 @@
+{
+                    "texto": "TD-Pardelas-102 - 3 Quartos (06 a 08 hóspedes)",
+                    "valor": "RESERVADO",
+                    "localizacao": "https://maps.app.goo.gl/zqPVPcaf6NrJ1H4ZA",
+                    "detalhes": "1 suíte + 2 quartos \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/olenetd/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/3.jpg",
+                            "descricao": "Condomínio- Aéra externa"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/4.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/5.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/7.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/8.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/9.jpg",
+                            "descricao": "Quarto 03"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/10.jpg",
+                            "descricao": "Quarto 03"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/11.jpg",
+                            "descricao": "Visual do local da COP"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/12.jpg",
+                            "descricao": "Visual do local da COP"
+                        },
+                        {
+                            "href": "img/apartamento/olenetd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
