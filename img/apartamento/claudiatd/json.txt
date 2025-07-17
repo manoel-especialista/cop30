@@ -1,0 +1,68 @@
+{
+                    "texto": "TD-Albatroz-702 - 3 Quartos (06 a 08 hóspedes)",
+                    "valor": "RESERVADO",
+                    "localizacao": "https://maps.app.goo.gl/zqPVPcaf6NrJ1H4ZA",
+                    "detalhes": "1 suíte + 2 quartos \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/claudiatd/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/2.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/3.jpg",
+                            "descricao": "Condomínio- Aéra externa"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/4.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/5.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/6.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/7.jpg",
+                            "descricao": "Banheiro 01"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/8.jpg",
+                            "descricao": "Quarto 02 "
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/9.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/10.jpg",
+                            "descricao": "Banheiro 02"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/11.jpg",
+                            "descricao": "Banheiro 02"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/12.jpg",
+                            "descricao": "Quarto 03"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/13.jpg",
+                            "descricao": "Quarto 03"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/14.jpg",
+                            "descricao": "Cozinha"
+                        },
+                        {
+                            "href": "img/apartamento/claudiatd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },

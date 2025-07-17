@@ -6,6 +6,62 @@
             "tipo": "Casas",
             "detalhes": [
                 {
+                    "texto": "Condomínio Jardim Espanha (6 a 8 hóspedes)",
+                    "valor": "R$100.000,00",
+                    "localizacao": "https://maps.app.goo.gl/hq4knzjVECXHbjeaA",
+                    "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/carlos/1.jpeg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/casa/carlos/2.jpeg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/carlos/3.jpeg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/carlos/4.jpg",
+                            "descricao": "Fachada"
+                        },
+                        {
+                            "href": "img/casa/carlos/5.jpg",
+                            "descricao": "Entrada Condomínio"
+                        },
+                        {
+                            "href": "img/casa/carlos/6.jpeg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/casa/carlos/7.jpeg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/carlos/8.jpeg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/carlos/9.jpeg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/carlos/10.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/carlos/11.jpeg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/carlos/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "Condomínio Jardim Marsella (6 a 8 hóspedes)",
                     "valor": "R$100.000,00",
                     "localizacao": "https://maps.app.goo.gl/JKHK3zxCLoZGQnsm9",
@@ -777,8 +833,52 @@
             "tipo": "Apartamentos - 3 Quartos",
             "detalhes": [
                 {
+                    "texto": "TORRES CENARIO (Fernando) - 3 Suites (06 a 07 hóspedes)",
+                    "valor": "R$130.000,00",
+                    "localizacao": "https://maps.app.goo.gl/7wFVFRZqQNVgQMEy9",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/nando/1.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/nando/2.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/nando/3.jpg",
+                            "descricao": "Suite principal"
+                        },
+                        {
+                            "href": "img/apartamento/nando/4.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/nando/5.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/nando/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/nando/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/nando/8.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/felipemendonza/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "RIO MENDONZA FELIPE - 3 Suites (06 a 07 hóspedes)",
-                    "valor": "R$140.000,00",
+                    "valor": "R$130.000,00",
                     "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -846,7 +946,7 @@
                 },
                 {
                     "texto": "RIO MENDONZA ELIANA - 3 Suites (06 a 07 hóspedes)",
-                    "valor": "R$140.000,00",
+                    "valor": "R$130.000,00",
                     "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1060,74 +1160,7 @@
                         }
                     ]
                 },
-                {
-                    "texto": "TD-Albatroz-702 - 3 Quartos (06 a 08 hóspedes)",
-                    "valor": "RESERVADO",
-                    "localizacao": "https://maps.app.goo.gl/zqPVPcaf6NrJ1H4ZA",
-                    "detalhes": "1 suíte + 2 quartos \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
-                    "imagens": [
-                        {
-                            "href": "img/apartamento/claudiatd/1.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/2.jpg",
-                            "descricao": "Sala de Estar"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/3.jpg",
-                            "descricao": "Condomínio- Aéra externa"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/4.jpg",
-                            "descricao": "Sala de Jantar"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/5.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/6.jpg",
-                            "descricao": "Quarto 01"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/7.jpg",
-                            "descricao": "Banheiro 01"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/8.jpg",
-                            "descricao": "Quarto 02 "
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/9.jpg",
-                            "descricao": "Quarto 02"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/10.jpg",
-                            "descricao": "Banheiro 02"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/11.jpg",
-                            "descricao": "Banheiro 02"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/12.jpg",
-                            "descricao": "Quarto 03"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/13.jpg",
-                            "descricao": "Quarto 03"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/14.jpg",
-                            "descricao": "Cozinha"
-                        },
-                        {
-                            "href": "img/apartamento/claudiatd/maps.jpg",
-                            "descricao": "Localização"
-                        }
-                    ]
-                },
+                
                 {
                     "texto": "Pancetti - 3 Quartos (06 a 08 hóspedes)",
                     "valor": "R$80.000,00",
