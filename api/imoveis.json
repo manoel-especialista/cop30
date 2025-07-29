@@ -885,6 +885,162 @@
             "tipo": "Apartamentos - 3 Quartos",
             "detalhes": [
                 {
+                    "texto": "TARSILA (Carina) - 3 Suites (06 a 08 hóspedes)",
+                    "valor": "R$130.000,00",
+                    "localizacao": "https://maps.app.goo.gl/FkVptXd8p7UH58Wf6",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/carinatarsila/1.jpg",
+                            "descricao": "Área de Laser"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/2.jpg",
+                            "descricao": "Fachada"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/3.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/4.jpg",
+                            "descricao": "Cozinha 100% equipada"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/5.jpg",
+                            "descricao": "Suite"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/8.jpg",
+                            "descricao": "Sala de TV"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/10.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/11.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinatarsila/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "TIMES SQUARE (Carina) - 3 Quartos sendo 2 suites (06 a 07 hóspedes)",
+                    "valor": "R$130.000,00",
+                    "localizacao": "https://maps.app.goo.gl/UuYxz5p6MHXJz76a9",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n No bairro mais nobre da cidade de Belém.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/carinatimes/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/2.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/3.jpg",
+                            "descricao": "Sala de Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/4.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/5.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/7.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/8.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/10.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinatimes/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
+                    "texto": "SAN MARINO (Carina) - 3 Quartos sendo 1 suites (06 a 07 hóspedes)",
+                    "valor": "R$120.000,00",
+                    "localizacao": "https://maps.app.goo.gl/K7AtGsANbi3auB9B9",
+                    "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Apartamento próximo ao local do evento COP30.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/carinasanmarino/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/2.jpg",
+                            "descricao": "Entrada"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/3.jpg",
+                            "descricao": "Fachada"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/4.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/5.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/6.jpg",
+                            "descricao": "Quarto"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/8.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/9.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/carinasanmarino/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+                {
                     "texto": "DI CAVALCANTI (Fernando) - 3 Suites (06 a 07 hóspedes)",
                     "valor": "R$130.000,00",
                     "localizacao": "https://maps.app.goo.gl/gJvWaqYWaNkZAn388",
