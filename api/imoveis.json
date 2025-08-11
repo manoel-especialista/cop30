@@ -6,6 +6,91 @@
             "tipo": "Casas",
             "detalhes": [
                 {
+                    "texto": "Condomínio ÁGUA CRISTAL (12 a 15 hóspedes)",
+                    "valor": "R$300.000,00",
+                    "localizacao": "https://maps.app.goo.gl/fwAk2TX71BAT2o5c6",
+                    "detalhes": "Bela casa com 5 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condomínio completo com muita segurança.",
+                    "imagens": [
+                        {
+                            "href": "img/casa/magela/1.jpg",
+                            "descricao": "Frente"
+                        },
+                        {
+                            "href": "img/casa/magela/2.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/casa/magela/3.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/casa/magela/4.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/casa/magela/5.jpg",
+                            "descricao": "Sala de Estar"
+                        },
+                        {
+                            "href": "img/casa/magela/6.jpg",
+                            "descricao": "Sala de TV"
+                        },
+                        {
+                            "href": "img/casa/magela/7.jpg",
+                            "descricao": "Sala piso inferior"
+                        },
+                        {
+                            "href": "img/casa/magela/8.jpg",
+                            "descricao": "Escritõrio"
+                        },
+                        {
+                            "href": "img/casa/magela/9.jpg",
+                            "descricao": "Área Gourmet"
+                        },
+                        {
+                            "href": "img/casa/magela/10.jpg",
+                            "descricao": "Área Gourmet"
+                        },
+                        {
+                            "href": "img/casa/magela/11.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/magela/12.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/magela/13.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/magela/14.jpg",
+                            "descricao": "Suíte"
+                        },
+                        {
+                            "href": "img/casa/magela/15.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/magela/16.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/casa/magela/17.jpg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/casa/magela/18.jpg",
+                            "descricao": "Área externa com piscina"
+                        },
+                        {
+                            "href": "img/casa/magela/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },
+
+                {
                     "texto": "Condomínio Jardim Espanha (6 a 8 hóspedes)",
                     "valor": "R$120.000,00",
                     "localizacao": "https://maps.app.goo.gl/hq4knzjVECXHbjeaA",
@@ -61,6 +146,7 @@
                         }
                     ]
                 },
+
                 {
                     "texto": "Condomínio Bancrévea (06 a 08 hóspedes)",
                     "valor": "R$120.000,00",
