@@ -769,6 +769,50 @@
                     ]
                 },
                 {
+                    "texto": "TD-Pardelas-404 - 2 Quartos (04 a 06 hóspedes)",
+                    "valor": "R$80.000,00",
+                    "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
+                    "detalhes": "1 suíte + 1 quarto \n Espaço aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
+                    "imagens": [
+                        {
+                            "href": "img/apartamento/julianatd/1.jpg",
+                            "descricao": "Sala de Estar e Jantar"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/2.jpg",
+                            "descricao": "Sacada"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/3.jpg",
+                            "descricao": "Cozinha 100% Equipada"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/4.jpg",
+                            "descricao": "Quarto 01"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/5.jpg",
+                            "descricao": "Quarto 02"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/6.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/7.jpg",
+                            "descricao": "Banheiro"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/8.jpg",
+                            "descricao": "Lavanderia"
+                        },
+                        {
+                            "href": "img/apartamento/julianatd/maps.jpg",
+                            "descricao": "Localização"
+                        }
+                    ]
+                },                
+                {
                     "texto": "TD-Pardelas-1405 - 2 Quartos (04 a 06 hóspedes)",
                     "valor": "R$80.000,00",
                     "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
