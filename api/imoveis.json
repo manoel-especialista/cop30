@@ -6,8 +6,8 @@
             "tipo": "Casas",
             "detalhes": [
                 {
-                    "texto": "Condomínio ÁGUA CRISTAL (12 a 15 hóspedes)",
-                    "valor": "R$300.000,00",
+                    "texto": "5 Suítes (12 a 15 hóspedes)",
+                    "valor": "CONDOMÍNIO ÁGUA CRISTAL",
                     "localizacao": "https://maps.app.goo.gl/fwAk2TX71BAT2o5c6",
                     "detalhes": "Bela casa com 5 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -91,8 +91,8 @@
                 },
 
                 {
-                    "texto": "Condomínio Jardim Espanha (6 a 8 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": "3 Suites (6 a 8 hóspedes)",
+                    "valor": "CONDOMÍNIO JARDIM ESPANHA",
                     "localizacao": "https://maps.app.goo.gl/hq4knzjVECXHbjeaA",
                     "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -148,8 +148,8 @@
                 },
 
                 {
-                    "texto": "Condomínio Bancrévea (06 a 08 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": "2 quartos (04 a 06 hóspedes)",
+                    "valor": "CONDOMÍNIO BANCRÉVEA",
                     "localizacao": "https://maps.app.goo.gl/LkMKkmH6a5vGRkn4A",
                     "detalhes": "Casa com 2 Quartos (Sendo 1 suíte) \n Imóvel em Condomínio com segurança e bem próximo ao evento da COP 30.",
                     "imagens": [
@@ -200,8 +200,8 @@
                     ]
                 },                
                 {
-                    "texto": "Condomínio Jardim Marsella (6 a 8 hóspedes)",
-                    "valor": "R$100.000,00",
+                    "texto": "3 Quartos (6 a 8 hóspedes)",
+                    "valor": "CONDOMÍNIO JADIM MARSELHA",
                     "localizacao": "https://maps.app.goo.gl/JKHK3zxCLoZGQnsm9",
                     "detalhes": "Bela casa com 3 suítes de fino acabamento! \n Closet, escritório, área Gourmet completa \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -324,8 +324,8 @@
                     ]
                 },
                 {
-                    "texto": "Condomínio Villa Firenze (8 a 10 hóspedes)",
-                    "valor": "R$140.000,00",
+                    "texto": "4 suítes (8 a 10 hóspedes)",
+                    "valor": "CONDOMÍNIO VILA FIRENZE",
                     "localizacao": "https://maps.app.goo.gl/9N2pSLv2qi4yixEG9",
                     "detalhes": "Bela casa com 4 suítes \n Muito espaçosa ,área Gourmet completa \n Imóvel em Condomínio com total segurança e área de laser completa.",
                     "imagens": [
@@ -363,8 +363,8 @@
                         }                    ]
                 },
                 {
-                    "texto": "Casa Centro (12 a 15 hóspedes)",
-                    "valor": "R$140.000,00",
+                    "texto": "5 quartos (12 a 15 hóspedes)",
+                    "valor": "BAIRRO DE NAZARÉ - Localização privilegiada",
                     "localizacao": "https://maps.app.goo.gl/hBdWXJjJ6a7aEXTW9",
                     "detalhes": "Bela casa com 3 suítes + 2 quartos \n Muito espaçosa , Área Gourmet completa \n Duas Cozinhas e duas salas independentes \n Imóvel muito bem localizado e dispõe de academia privativa.",
                     "imagens": [
@@ -443,8 +443,8 @@
                     ]
                 },
                 {
-                    "texto": "Casa Praça da República (08 a 10 hóspedes)",
-                    "valor": "R$140.000,00",
+                    "texto": "3 quartos (08 a 10 hóspedes)",
+                    "valor": "PRAÇA DA REPÚBLICA",
                     "localizacao": "https://maps.app.goo.gl/n7t2TmXsMGn3sbCM9",
                     "detalhes": "Bela casa com 3 suítes + 1 quartos \n Muito espaçosa , \n a 100m da Praça da República \n Imóvel muito bem localizado e prõximo da Estação das Docas, Teatro da Paz, Shopping e Restaurantes.",
                     "imagens": [
@@ -491,8 +491,8 @@
                     ]
                 },
                 {
-                    "texto": "Condomínio Basa 01 (06 a 08 hóspedes)",
-                    "valor": "R$110.000,00",
+                    "texto": "2 quartos (04 a 06 hóspedes)",
+                    "valor": "CONDOMÍNIO DO BASA",
                     "localizacao": "https://maps.app.goo.gl/C19pYUaUA73beFkg9",
                     "detalhes": "Casa com 3 quartos! \n Condomínio fechado e com localização privilegiada.",
                     "imagens": [
@@ -543,8 +543,8 @@
                     ]
                 },
                 {
-                    "texto": "Condomínio Basa 02 (06 a 08 hóspedes)",
-                    "valor": "R$110.000,00",
+                    "texto": "3 quartos (06 a 08 hóspedes)",
+                    "valor": "CONDOMÍNIO DO BASA",
                     "localizacao": "https://maps.app.goo.gl/C19pYUaUA73beFkg9",
                     "detalhes": "Casa com 3 quartos! \n Condomínio fechado e com localização privilegiada.",
                     "imagens": [
@@ -604,8 +604,8 @@
             "tipo": "Apartamentos - 1 Quarto",
             "detalhes": [
                 {
-                    "texto": "ELBA - 1 Quarto (02 a 03 hóspedes)",
-                    "valor": "R$50.000,00",
+                    "texto": "1 Quarto (02 a 03 hóspedes)",
+                    "valor": "CONDOMÍNIO RIO ELBA",
                     "localizacao": "https://maps.app.goo.gl/ZRMQew8SGtzSByAm8",
                     "detalhes": "1 quarto \n Espaço bem aconchegante\n Condomínio com excelente localização.",
                     "imagens": [
@@ -657,8 +657,8 @@
             "tipo": "Apartamentos - 2 Quartos",
             "detalhes": [
                 {
-                    "texto": "BATISTA CAMPOS - 2 Suítes (04 a 06 hóspedes)",
-                    "valor": "R$90.000,00",
+                    "texto": "2 Suítes (04 a 06 hóspedes)",
+                    "valor": "PRAÇA BATISTA CAMPOS",
                     "localizacao": "https://maps.app.goo.gl/S4o2dErcJAmFugJ76",
                     "detalhes": "2 suítes \n Espaço bem aconchegante em frente a praça Batista Campos\n Condomínio completo com muita segurança e com localização privilegiada",
                     "imagens": [
@@ -713,8 +713,8 @@
                     ]
                 },
                 {
-                    "texto": "TD-Pardelas-604 - 2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$80.000,00",
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
+                    "valor": "CONDOMINIO TORRES DUMONT Pardelas 604",
                     "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
                     "detalhes": "1 suíte + 1 quarto \n Espaço aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
                     "imagens": [
@@ -769,8 +769,8 @@
                     ]
                 },
                 {
-                    "texto": "TD-Pardelas-1405 - 2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$80.000,00",
+                    "texto": "2 Quartos (04 a 06 hóspedes)",
+                    "valor": "CONDOMINIO TORRES DUMONT Pardelas 1405",
                     "localizacao": "https://maps.app.goo.gl/f5yjZT4WHEtSk1k39",
                     "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
                     "imagens": [
@@ -830,7 +830,7 @@
                 }
                 ,{
                     "texto": "2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$80.000,00",
+                    "valor": "CONDOMÍNIO GARDEN VILLE",
                     "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
                     "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -879,7 +879,7 @@
                 },
                 {
                     "texto": "2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$80.000,00",
+                    "valor": "CONDOMÍNIO GARDEN VILLE",
                     "localizacao": "https://maps.app.goo.gl/jXiHArGu6CpaR2yE8",
                     "detalhes": "1 suíte + 1 quarto \n Espaço bem aconchegante e totalmente nascente \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -927,7 +927,7 @@
                 },
                 {
                     "texto": "2 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$80.000,00",
+                    "valor": "CONDOMÍNIO VILLAZA MARIA",
                     "localizacao": "https://maps.app.goo.gl/mMQnr3wdHGPUhsqW6",
                     "detalhes": "2 quartos \n Espaço bem aconchegante e totalmente nascente \n Condomínio com excelente localização e próximo a restaurantes, supermercados e farmácias.",
                     "imagens": [
@@ -971,8 +971,8 @@
             "tipo": "Apartamentos - 3 Quartos",
             "detalhes": [
                 {
-                    "texto": "TARSILA (Carina) - 3 Suites (06 a 08 hóspedes)",
-                    "valor": "R$130.000,00",
+                    "texto": "3 Suites (06 a 08 hóspedes)",
+                    "valor": "CONDOMINIO TARSILA",
                     "localizacao": "https://maps.app.goo.gl/FkVptXd8p7UH58Wf6",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1027,8 +1027,8 @@
                     ]
                 },
                 {
-                    "texto": "TIMES SQUARE (Carina) - 3 Quartos sendo 2 suites (06 a 07 hóspedes)",
-                    "valor": "R$130.000,00",
+                    "texto": "3 Quartos, sendo 2 suites (06 a 07 hóspedes)",
+                    "valor": "CONDOMÍNIO TIMES SQUARE",
                     "localizacao": "https://maps.app.goo.gl/UuYxz5p6MHXJz76a9",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n No bairro mais nobre da cidade de Belém.",
                     "imagens": [
@@ -1079,8 +1079,8 @@
                     ]
                 },
                 {
-                    "texto": "SAN MARINO (Carina) - 3 Quartos sendo 1 suites (06 a 07 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": "3 Quartos sendo 1 suites (06 a 07 hóspedes)",
+                    "valor": "CONDOMÍNIO SAN MARINO",
                     "localizacao": "https://maps.app.goo.gl/K7AtGsANbi3auB9B9",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Apartamento próximo ao local do evento COP30.",
                     "imagens": [
@@ -1127,8 +1127,8 @@
                     ]
                 },
                 {
-                    "texto": "DI CAVALCANTI (Fernando) - 3 Suites (06 a 07 hóspedes)",
-                    "valor": "R$130.000,00",
+                    "texto": "3 Suites (06 a 07 hóspedes)",
+                    "valor": "CONDOMINIO DI CAVALCANTI",
                     "localizacao": "https://maps.app.goo.gl/gJvWaqYWaNkZAn388",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1199,8 +1199,8 @@
                     ]
                 },
                 {
-                    "texto": "TORRES CENARIO (Fernando) - 3 Suites (06 a 07 hóspedes)",
-                    "valor": "R$130.000,00",
+                    "texto": "3 Suites (06 a 07 hóspedes)",
+                    "valor": "CONDOMINIO TORRES CENARIO",
                     "localizacao": "https://maps.app.goo.gl/7wFVFRZqQNVgQMEy9",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1243,8 +1243,8 @@
                     ]
                 },
                 {
-                    "texto": "RIO MENDONZA FELIPE - 3 Suites (06 a 07 hóspedes)",
-                    "valor": "R$130.000,00",
+                    "texto": "3 Suites (06 a 07 hóspedes)",
+                    "valor": "CONDOMÍNIO RIO MENDONZA",
                     "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1311,8 +1311,8 @@
                     ]
                 },
                 {
-                    "texto": "RIO MENDONZA ELIANA - 3 Suites (06 a 07 hóspedes)",
-                    "valor": "R$130.000,00",
+                    "texto": "3 Suites (06 a 07 hóspedes)",
+                    "valor": "CONDOMÍNIO RIO MENDONZA",
                     "localizacao": "https://maps.app.goo.gl/T8ofAbcfwWoq6Hwt7",
                     "detalhes": "3 Suítes \n Apartamento com belo acabamento e muito espaçoso \n Quartos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1383,8 +1383,8 @@
                     ]
                 },
                 {
-                    "texto": "PORTO - 3 Quartos (06 a 07 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": " Quartos (06 a 07 hóspedes)",
+                    "valor": "CONDOMINIO PORTO ALEGRE",
                     "localizacao": "https://maps.app.goo.gl/dCzw2fzDVQSmVeWGA",
                     "detalhes": "3 Quartos (1 Suíte) \n Apartamento com belo acabamento e muito espaçoso \n Qaurtos totalmente climatizado \n Condomínio proximo ao evento da COP e com muita segurança.",
                     "imagens": [
@@ -1455,8 +1455,8 @@
                     ]
                 },
                 {
-                    "texto": "TD-Albatroz-601 - 3 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": "3 Quartos (04 a 06 hóspedes)",
+                    "valor": "CONDOMÍNIO TORRES DUMONT Albatroz 601",
                     "localizacao": "https://maps.app.goo.gl/9cQ2TosZJLDW3TdZ8",
                     "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
                     "imagens": [
@@ -1527,8 +1527,8 @@
                     ]
                 },
                 {
-                    "texto": "TD-Pelicano-802 - 3 Quartos (04 a 06 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": "3 Quartos (04 a 06 hóspedes)",
+                    "valor": "CONDOMÍNIO TORRES DUMONT Pelicano 802",
                     "localizacao": "https://maps.app.goo.gl/9cQ2TosZJLDW3TdZ8",
                     "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança e a poucos metros do local da COP.",
                     "imagens": [
@@ -1575,8 +1575,8 @@
                     ]
                 },
                 {
-                    "texto": "Pancetti - 3 Quartos (06 a 08 hóspedes)",
-                    "valor": "R$80.000,00",
+                    "texto": "3 Quartos (06 a 08 hóspedes)",
+                    "valor": "CONDOMINIO PANCETTI",
                     "localizacao": "https://maps.app.goo.gl/DefJNhQ4t8jW53rP7",
                     "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança.",
                     "imagens": [
@@ -1619,8 +1619,8 @@
                     ]
                 },
                 {
-                    "texto": "RV104- 3 Quartos (06 a 08 hóspedes)",
-                    "valor": "R$120.000,00",
+                    "texto": "3 Quartos, sendo 1 suíte (06 a 08 hóspedes)",
+                    "valor": "CONDOMÍNIO VITÓRIA Apartamento 104",
                     "localizacao": "https://maps.app.goo.gl/RGrpyyLUu7DeZqXG8",
                     "detalhes": "1 suíte + 2 quarto \n Espaço bem aconchegante \n Condomínio completo com muita segurança.",
                     "imagens": [
